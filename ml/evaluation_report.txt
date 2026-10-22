@@ -1,0 +1,34 @@
+===================================================================
+PULSECOMMERCE - MACHINE LEARNING MODEL EVALUATION REPORT
+Final Year Capstone Project
+===================================================================
+Algorithm           : Random Forest Classifier
+Number of Trees     : 100
+Features Used       : recency_days, frequency_orders, monetary_spend, cart_abandonment_rate, support_tickets, avg_delivery_delay_days, satisfaction_score
+Dataset Size        : 1,500 customer records (80/20 train-test split)
+
+PERFORMANCE METRICS:
+-------------------------------------------------------------------
+- Overall Accuracy  : 89.00%
+- Precision (Churn) : 86.79%
+- Recall (Churn)    : 63.89%
+- F1-Score          : 73.60%
+
+CONFUSION MATRIX:
+-------------------------------------------------------------------
+True Negative (Retained correctly)  : 221
+False Positive (Flagged by mistake) : 7
+False Negative (Missed churners)    : 26
+True Positive (Caught churners)     : 46
+
+FEATURE IMPORTANCE RANKING (TOP CHURN DRIVERS):
+-------------------------------------------------------------------
+- recency_days             : 29.69%
+- satisfaction_score       : 22.13%
+- avg_delivery_delay_days  : 12.59%
+- cart_abandonment_rate    : 11.94%
+- support_tickets          : 8.42%
+- monetary_spend           : 7.85%
+- frequency_orders         : 7.38%
+
+Conclusion: The Random Forest model provides strong balance between Precision and Recall for proactive retention campaigns.
