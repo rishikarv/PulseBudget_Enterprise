@@ -1,0 +1,7 @@
+# PulseCommerce Dependencies
+# Tested with Python 3.10+ / Python 3.13
+Flask>=3.0.0
+flask-cors>=4.0.0
+scikit-learn>=1.4.0
+pandas>=2.0.0
+numpy>=1.24.0
