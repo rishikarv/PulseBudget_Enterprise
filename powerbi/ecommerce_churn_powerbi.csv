@@ -1,0 +1,1501 @@
+customer_id,customer_name,preferred_category,recency_days,frequency_orders,monetary_spend,cart_abandonment_rate,support_tickets,avg_delivery_delay_days,satisfaction_score,churn
+CUST-1000,Karan Malhotra #1,Home & Kitchen,56,38,2709.16,0.11,1,1.1,4,0
+CUST-1001,Rachel Martin #2,Fashion & Apparel,96,24,758.83,0.18,1,0.2,3,0
+CUST-1002,David Taylor #3,Fashion & Apparel,84,23,2442.9,0.35,4,1.7,1,1
+CUST-1003,John Miller #4,Electronics,50,22,1011.82,0.54,1,2.4,1,0
+CUST-1004,Neha Joshi #5,Electronics,75,2,196.14,0.71,0,6.2,2,1
+CUST-1005,Karan Malhotra #6,Electronics,15,31,1219.81,0.69,1,3.0,1,0
+CUST-1006,James Lewis #7,Electronics,32,11,1073.44,0.24,1,1.7,2,0
+CUST-1007,John Miller #8,Fashion & Apparel,28,28,731.48,0.2,3,5.9,3,0
+CUST-1008,John Miller #9,Fashion & Apparel,22,32,2192.04,0.31,1,1.4,2,0
+CUST-1009,Pooja Verma #10,Electronics,105,5,452.01,0.2,4,1.8,1,1
+CUST-1010,Neha Joshi #11,Beauty & Care,17,38,3969.39,0.36,3,2.0,5,0
+CUST-1011,Rohan Mehta #12,Fashion & Apparel,59,10,1022.82,0.28,1,1.2,4,0
+CUST-1012,Diya Patel #13,Sports & Fitness,90,24,2272.03,0.33,2,4.0,5,0
+CUST-1013,Emily Davis #14,Sports & Fitness,108,35,3517.37,0.27,1,0.5,3,0
+CUST-1014,Ananya Iyer #15,Electronics,71,23,964.47,0.09,3,1.8,4,0
+CUST-1015,Diya Patel #16,Fashion & Apparel,106,17,835.65,0.61,3,2.8,2,1
+CUST-1016,Aarav Sharma #17,Electronics,57,1,49.56,0.5,1,5.2,4,0
+CUST-1017,Emily Davis #18,Home & Kitchen,26,31,1768.54,0.31,2,4.7,2,0
+CUST-1018,Emily Davis #19,Home & Kitchen,25,31,1811.4,0.63,1,1.6,1,0
+CUST-1019,Daniel Clark #20,Electronics,10,34,2423.76,0.14,4,2.3,5,0
+CUST-1020,Sneha Rao #21,Home & Kitchen,45,9,347.31,0.7,1,1.1,4,0
+CUST-1021,Jessica White #22,Electronics,83,22,1842.63,0.71,1,1.4,5,0
+CUST-1022,David Taylor #23,Electronics,11,13,510.16,0.35,2,5.2,3,0
+CUST-1023,David Taylor #24,Home & Kitchen,77,25,1284.41,0.24,2,5.9,3,0
+CUST-1024,James Lewis #25,Fashion & Apparel,53,18,1220.12,0.61,3,5.0,3,1
+CUST-1025,Emily Davis #26,Home & Kitchen,72,12,1112.37,0.14,2,0.3,4,0
+CUST-1026,Rachel Martin #27,Fashion & Apparel,104,17,1493.53,0.45,1,4.2,4,1
+CUST-1027,Rohan Mehta #28,Sports & Fitness,68,15,1198.06,0.16,3,6.5,5,0
+CUST-1028,Vikram Singh #29,Electronics,111,15,573.61,0.62,1,1.0,1,1
+CUST-1029,James Lewis #30,Fashion & Apparel,95,15,1072.48,0.08,1,1.6,4,0
+CUST-1030,Karan Malhotra #31,Home & Kitchen,28,39,1264.89,0.47,1,3.3,3,0
+CUST-1031,Aditya Nair #32,Fashion & Apparel,75,13,741.99,0.25,4,1.8,2,1
+CUST-1032,Karan Malhotra #33,Sports & Fitness,107,17,1022.53,0.54,0,11.1,3,1
+CUST-1033,Laura Harris #34,Home & Kitchen,65,32,908.29,0.31,2,1.3,3,0
+CUST-1034,Pooja Verma #35,Home & Kitchen,49,9,434.6,0.42,4,2.8,2,1
+CUST-1035,Sarah Wilson #36,Beauty & Care,47,20,2124.6,0.5,0,3.5,2,0
+CUST-1036,Laura Harris #37,Sports & Fitness,52,26,2757.53,0.35,2,1.5,3,0
+CUST-1037,Aditya Nair #38,Sports & Fitness,102,27,1483.59,0.29,2,4.3,3,1
+CUST-1038,Diya Patel #39,Home & Kitchen,88,21,601.93,0.6,1,1.7,3,1
+CUST-1039,Rachel Martin #40,Home & Kitchen,54,18,724.02,0.5,0,1.2,2,0
+CUST-1040,David Taylor #41,Electronics,60,13,758.4,0.32,1,0.3,1,1
+CUST-1041,Karan Malhotra #42,Electronics,57,16,1688.98,0.48,1,1.1,5,0
+CUST-1042,Emily Davis #43,Home & Kitchen,47,9,333.02,0.2,1,2.9,5,0
+CUST-1043,Neha Joshi #44,Electronics,31,12,1078.79,0.39,1,5.6,3,0
+CUST-1044,David Taylor #45,Fashion & Apparel,105,38,1301.04,0.3,0,0.6,5,0
+CUST-1045,Rohan Mehta #46,Electronics,46,19,2059.73,0.23,3,1.0,4,0
+CUST-1046,Sarah Wilson #47,Fashion & Apparel,114,7,402.06,0.38,1,0.4,1,1
+CUST-1047,Daniel Clark #48,Beauty & Care,26,35,3181.32,0.2,2,2.6,1,0
+CUST-1048,Pooja Verma #49,Sports & Fitness,113,18,974.16,0.71,1,7.1,5,1
+CUST-1049,Laura Harris #50,Electronics,114,16,1253.63,0.14,1,2.3,4,0
+CUST-1050,Neha Joshi #51,Fashion & Apparel,5,39,1611.53,0.7,0,2.1,4,0
+CUST-1051,Pooja Verma #52,Beauty & Care,84,4,149.65,0.17,2,1.8,5,0
+CUST-1052,Diya Patel #53,Electronics,52,25,2618.39,0.66,4,0.2,3,0
+CUST-1053,Ananya Iyer #54,Beauty & Care,105,32,3296.0,0.12,4,2.9,1,1
+CUST-1054,Sneha Rao #55,Fashion & Apparel,75,13,1305.65,0.27,2,2.0,2,0
+CUST-1055,Pooja Verma #56,Fashion & Apparel,54,17,1328.75,0.75,0,2.4,1,1
+CUST-1056,Laura Harris #57,Sports & Fitness,33,37,3467.0,0.89,2,5.0,2,0
+CUST-1057,Emily Davis #58,Electronics,50,6,185.21,0.43,2,3.4,3,0
+CUST-1058,Diya Patel #59,Home & Kitchen,38,19,1015.68,0.53,3,3.3,1,1
+CUST-1059,Sneha Rao #60,Beauty & Care,27,13,671.64,0.53,3,5.8,2,1
+CUST-1060,Pooja Verma #61,Electronics,98,26,2054.78,0.19,3,10.1,3,1
+CUST-1061,Sarah Wilson #62,Home & Kitchen,15,14,773.59,0.38,1,1.9,3,0
+CUST-1062,Jessica White #63,Sports & Fitness,96,31,1166.32,0.46,2,0.3,3,1
+CUST-1063,David Taylor #64,Electronics,61,4,302.8,0.05,2,1.4,3,0
+CUST-1064,Neha Joshi #65,Beauty & Care,21,39,3674.68,0.5,0,3.4,4,0
+CUST-1065,Sarah Wilson #66,Home & Kitchen,46,8,459.84,0.17,3,0.1,5,0
+CUST-1066,Neha Joshi #67,Home & Kitchen,69,25,906.07,0.17,3,0.1,1,1
+CUST-1067,Jessica White #68,Home & Kitchen,6,13,542.34,0.24,2,0.2,1,0
+CUST-1068,Michael Brown #69,Fashion & Apparel,38,32,1445.95,0.58,1,2.9,5,0
+CUST-1069,Laura Harris #70,Sports & Fitness,62,38,1918.67,0.26,1,1.5,3,0
+CUST-1070,David Taylor #71,Sports & Fitness,86,38,3026.23,0.6,1,1.0,4,0
+CUST-1071,Michael Brown #72,Home & Kitchen,62,28,2130.25,0.55,0,0.2,2,0
+CUST-1072,Aditya Nair #73,Beauty & Care,82,30,2525.0,0.68,0,2.9,4,0
+CUST-1073,David Taylor #74,Home & Kitchen,78,3,167.44,0.27,4,0.9,5,0
+CUST-1074,Michael Brown #75,Fashion & Apparel,74,28,2661.11,0.35,1,0.7,4,0
+CUST-1075,Aarav Sharma #76,Home & Kitchen,46,3,127.04,0.22,4,2.3,1,1
+CUST-1076,Karan Malhotra #77,Home & Kitchen,13,34,2205.53,0.16,2,1.8,5,0
+CUST-1077,Aditya Nair #78,Home & Kitchen,95,16,1489.28,0.78,1,1.0,4,0
+CUST-1078,Aarav Sharma #79,Beauty & Care,94,22,886.9,0.42,3,2.3,4,1
+CUST-1079,Emily Davis #80,Fashion & Apparel,3,32,1098.83,0.21,2,0.7,1,0
+CUST-1080,Neha Joshi #81,Electronics,94,38,3804.3,0.2,1,3.5,4,0
+CUST-1081,John Miller #82,Electronics,6,8,433.19,0.32,0,0.6,2,0
+CUST-1082,James Lewis #83,Fashion & Apparel,93,8,665.03,0.65,0,0.4,2,1
+CUST-1083,Daniel Clark #84,Home & Kitchen,8,6,162.93,0.74,3,3.4,4,0
+CUST-1084,Neha Joshi #85,Home & Kitchen,44,14,1171.16,0.84,4,2.7,2,1
+CUST-1085,Rohan Mehta #86,Home & Kitchen,109,32,1659.8,0.68,0,0.4,4,0
+CUST-1086,Rohan Mehta #87,Fashion & Apparel,107,35,1040.83,0.36,3,0.3,4,0
+CUST-1087,Aarav Sharma #88,Home & Kitchen,108,10,768.34,0.78,1,4.0,1,1
+CUST-1088,Vikram Singh #89,Fashion & Apparel,33,3,136.4,0.66,1,3.3,4,0
+CUST-1089,Sneha Rao #90,Fashion & Apparel,81,12,694.54,0.61,4,0.9,5,0
+CUST-1090,Karan Malhotra #91,Home & Kitchen,112,31,987.33,0.68,1,2.4,2,1
+CUST-1091,Aditya Nair #92,Beauty & Care,75,29,1087.76,0.25,2,0.3,4,0
+CUST-1092,Karan Malhotra #93,Fashion & Apparel,77,5,251.64,0.67,1,1.6,3,1
+CUST-1093,Aditya Nair #94,Electronics,50,25,815.74,0.85,1,0.0,3,0
+CUST-1094,Neha Joshi #95,Electronics,11,31,3175.03,0.21,3,1.1,2,0
+CUST-1095,Emily Davis #96,Electronics,95,21,535.79,0.26,1,0.2,3,0
+CUST-1096,Diya Patel #97,Home & Kitchen,28,20,1322.56,0.58,2,1.4,1,0
+CUST-1097,Aarav Sharma #98,Fashion & Apparel,108,39,1383.57,0.17,3,1.2,5,0
+CUST-1098,Jessica White #99,Fashion & Apparel,70,22,1125.36,0.62,2,1.3,4,0
+CUST-1099,Vikram Singh #100,Fashion & Apparel,41,4,414.86,0.33,2,0.1,3,0
+CUST-1100,Rohan Mehta #101,Electronics,16,13,503.67,0.65,1,1.0,3,0
+CUST-1101,Emily Davis #102,Fashion & Apparel,68,20,2141.91,0.51,0,3.1,3,0
+CUST-1102,Neha Joshi #103,Electronics,99,13,552.4,0.32,1,1.0,3,0
+CUST-1103,Rohan Mehta #104,Fashion & Apparel,48,17,1496.56,0.7,2,2.8,3,0
+CUST-1104,Aarav Sharma #105,Electronics,56,36,2572.83,0.43,2,1.0,3,0
+CUST-1105,Rohan Mehta #106,Beauty & Care,64,33,3305.96,0.72,3,1.2,2,1
+CUST-1106,Vikram Singh #107,Electronics,59,1,72.09,0.41,0,1.8,2,0
+CUST-1107,David Taylor #108,Sports & Fitness,90,15,1056.56,0.5,4,6.6,4,1
+CUST-1108,Sarah Wilson #109,Fashion & Apparel,62,13,540.98,0.31,3,0.3,4,0
+CUST-1109,Rohan Mehta #110,Beauty & Care,76,17,665.2,0.39,0,0.1,2,0
+CUST-1110,Aarav Sharma #111,Home & Kitchen,11,24,2469.64,0.39,1,2.1,1,0
+CUST-1111,Vikram Singh #112,Home & Kitchen,101,8,422.93,0.68,1,6.6,2,1
+CUST-1112,Sarah Wilson #113,Beauty & Care,89,27,1528.93,0.21,1,10.1,5,0
+CUST-1113,Karan Malhotra #114,Fashion & Apparel,18,23,2060.46,0.44,0,1.5,4,0
+CUST-1114,Aditya Nair #115,Fashion & Apparel,19,8,430.4,0.38,1,1.4,4,0
+CUST-1115,David Taylor #116,Fashion & Apparel,87,8,847.4,0.42,3,2.3,5,0
+CUST-1116,David Taylor #117,Home & Kitchen,55,26,2280.82,0.24,2,1.8,3,0
+CUST-1117,Sneha Rao #118,Electronics,102,13,985.16,0.09,0,2.2,5,0
+CUST-1118,Michael Brown #119,Fashion & Apparel,118,39,3895.17,0.18,2,4.6,2,1
+CUST-1119,James Lewis #120,Home & Kitchen,82,37,1081.01,0.41,2,3.0,2,0
+CUST-1120,Karan Malhotra #121,Home & Kitchen,26,28,1311.81,0.2,0,1.5,4,0
+CUST-1121,Daniel Clark #122,Beauty & Care,6,25,1613.2,0.15,2,1.4,3,0
+CUST-1122,Rachel Martin #123,Home & Kitchen,4,16,708.69,0.47,3,2.2,4,0
+CUST-1123,Pooja Verma #124,Sports & Fitness,108,2,176.46,0.23,0,1.3,3,0
+CUST-1124,Vikram Singh #125,Fashion & Apparel,115,18,1856.39,0.18,2,1.3,4,0
+CUST-1125,Karan Malhotra #126,Fashion & Apparel,29,17,1037.35,0.54,1,0.0,2,0
+CUST-1126,Michael Brown #127,Fashion & Apparel,59,30,1622.44,0.33,0,0.4,1,0
+CUST-1127,David Taylor #128,Fashion & Apparel,98,39,4162.54,0.17,1,1.5,5,0
+CUST-1128,John Miller #129,Beauty & Care,17,13,816.56,0.1,3,3.8,5,0
+CUST-1129,Pooja Verma #130,Electronics,107,32,2130.21,0.41,1,0.7,5,0
+CUST-1130,Michael Brown #131,Beauty & Care,43,29,1591.82,0.4,2,1.6,4,0
+CUST-1131,Karan Malhotra #132,Fashion & Apparel,117,30,3069.35,0.32,0,0.9,4,0
+CUST-1132,James Lewis #133,Home & Kitchen,80,18,1320.5,0.54,0,0.2,4,0
+CUST-1133,Diya Patel #134,Home & Kitchen,66,13,1167.2,0.46,4,7.0,2,1
+CUST-1134,Sneha Rao #135,Fashion & Apparel,34,21,1974.07,0.5,3,4.2,2,0
+CUST-1135,Michael Brown #136,Fashion & Apparel,119,30,1621.72,0.08,3,0.2,2,0
+CUST-1136,Ananya Iyer #137,Fashion & Apparel,8,21,1299.14,0.64,3,2.8,5,0
+CUST-1137,Emily Davis #138,Electronics,13,17,1651.04,0.49,1,0.9,2,0
+CUST-1138,Emily Davis #139,Fashion & Apparel,106,19,1061.66,0.5,0,11.6,5,1
+CUST-1139,Rachel Martin #140,Electronics,8,15,1387.27,0.05,3,0.8,3,0
+CUST-1140,John Miller #141,Fashion & Apparel,94,9,944.86,0.84,1,0.6,4,0
+CUST-1141,Karan Malhotra #142,Home & Kitchen,96,10,779.73,0.31,0,1.8,1,0
+CUST-1142,Aarav Sharma #143,Home & Kitchen,100,31,2729.19,0.09,2,4.0,2,1
+CUST-1143,Aarav Sharma #144,Home & Kitchen,111,23,2148.97,0.79,3,0.5,5,0
+CUST-1144,Rachel Martin #145,Electronics,94,30,2904.85,0.25,3,2.7,2,0
+CUST-1145,Michael Brown #146,Home & Kitchen,65,33,1933.12,0.69,0,0.1,2,0
+CUST-1146,Aditya Nair #147,Fashion & Apparel,43,9,264.22,0.5,0,5.5,2,0
+CUST-1147,Rohan Mehta #148,Fashion & Apparel,39,1,59.16,0.58,2,0.2,2,0
+CUST-1148,Karan Malhotra #149,Beauty & Care,81,35,2879.42,0.35,2,5.4,2,0
+CUST-1149,Ananya Iyer #150,Electronics,59,11,696.08,0.55,4,1.5,4,0
+CUST-1150,Neha Joshi #151,Home & Kitchen,84,34,3014.5,0.29,1,1.3,3,0
+CUST-1151,Aditya Nair #152,Home & Kitchen,88,16,885.5,0.15,2,8.0,4,1
+CUST-1152,Vikram Singh #153,Fashion & Apparel,114,9,710.58,0.37,2,10.2,2,1
+CUST-1153,Aarav Sharma #154,Electronics,86,32,1307.06,0.63,1,2.3,4,0
+CUST-1154,James Lewis #155,Electronics,93,15,1330.45,0.44,1,0.3,4,0
+CUST-1155,Sneha Rao #156,Beauty & Care,86,12,856.61,0.3,2,1.6,1,1
+CUST-1156,Emily Davis #157,Fashion & Apparel,44,33,1397.4,0.36,0,1.7,3,0
+CUST-1157,David Taylor #158,Fashion & Apparel,9,14,697.37,0.77,4,1.6,1,1
+CUST-1158,Aditya Nair #159,Fashion & Apparel,37,8,709.05,0.21,0,1.9,4,0
+CUST-1159,Rachel Martin #160,Home & Kitchen,74,8,528.17,0.48,1,0.0,4,0
+CUST-1160,Daniel Clark #161,Electronics,36,27,1170.79,0.73,3,2.7,5,0
+CUST-1161,Daniel Clark #162,Fashion & Apparel,101,12,1286.62,0.57,1,2.7,2,1
+CUST-1162,Rachel Martin #163,Home & Kitchen,92,1,85.79,0.07,1,0.3,3,0
+CUST-1163,Emily Davis #164,Sports & Fitness,28,11,1169.92,0.15,2,1.9,2,0
+CUST-1164,Karan Malhotra #165,Fashion & Apparel,42,39,2390.85,0.49,0,1.8,3,0
+CUST-1165,Diya Patel #166,Fashion & Apparel,43,31,2026.89,0.48,2,2.5,3,0
+CUST-1166,Rohan Mehta #167,Fashion & Apparel,85,17,1722.55,0.18,4,0.2,1,1
+CUST-1167,Daniel Clark #168,Home & Kitchen,88,33,2297.76,0.16,1,2.2,4,0
+CUST-1168,Vikram Singh #169,Fashion & Apparel,42,32,2723.8,0.74,1,0.7,3,0
+CUST-1169,Daniel Clark #170,Fashion & Apparel,104,29,1346.61,0.84,3,1.6,4,1
+CUST-1170,Daniel Clark #171,Beauty & Care,66,21,1322.41,0.51,2,3.3,2,1
+CUST-1171,Daniel Clark #172,Home & Kitchen,55,21,745.36,0.32,2,2.7,5,0
+CUST-1172,Diya Patel #173,Fashion & Apparel,72,23,977.69,0.69,2,0.3,5,0
+CUST-1173,Diya Patel #174,Beauty & Care,48,6,150.48,0.43,3,2.0,5,0
+CUST-1174,Vikram Singh #175,Home & Kitchen,91,22,623.43,0.35,1,7.7,4,0
+CUST-1175,Aarav Sharma #176,Fashion & Apparel,22,38,4106.63,0.49,1,0.4,4,0
+CUST-1176,Aarav Sharma #177,Electronics,101,37,1687.2,0.3,1,4.2,4,0
+CUST-1177,James Lewis #178,Sports & Fitness,27,8,651.05,0.29,2,2.7,2,0
+CUST-1178,Diya Patel #179,Electronics,93,35,3371.32,0.39,1,3.3,4,0
+CUST-1179,Emily Davis #180,Electronics,67,11,789.87,0.42,0,0.7,4,0
+CUST-1180,Ananya Iyer #181,Electronics,108,24,912.41,0.08,1,0.7,5,0
+CUST-1181,Pooja Verma #182,Home & Kitchen,13,21,1824.69,0.52,3,5.2,3,0
+CUST-1182,John Miller #183,Electronics,45,2,152.04,0.2,2,1.0,2,0
+CUST-1183,Daniel Clark #184,Electronics,10,19,1655.97,0.35,6,0.1,4,0
+CUST-1184,Ananya Iyer #185,Electronics,100,39,3526.71,0.54,4,2.0,5,0
+CUST-1185,Vikram Singh #186,Electronics,9,28,3021.48,0.81,1,0.3,2,0
+CUST-1186,Rachel Martin #187,Home & Kitchen,54,17,1253.8,0.15,1,3.5,3,0
+CUST-1187,Diya Patel #188,Home & Kitchen,119,6,324.24,0.41,1,2.3,3,0
+CUST-1188,Ananya Iyer #189,Fashion & Apparel,27,19,1522.27,0.37,2,4.6,2,0
+CUST-1189,John Miller #190,Fashion & Apparel,34,38,1171.06,0.5,1,3.4,1,0
+CUST-1190,Jessica White #191,Home & Kitchen,115,28,2835.81,0.67,8,0.3,3,1
+CUST-1191,Jessica White #192,Electronics,1,2,70.29,0.5,3,1.1,5,0
+CUST-1192,Aarav Sharma #193,Fashion & Apparel,32,38,2008.93,0.51,1,3.3,1,0
+CUST-1193,Aditya Nair #194,Sports & Fitness,89,37,3490.52,0.02,1,1.2,3,0
+CUST-1194,Ananya Iyer #195,Home & Kitchen,93,4,303.09,0.18,1,7.9,4,1
+CUST-1195,Jessica White #196,Fashion & Apparel,71,22,1286.1,0.29,1,2.9,5,0
+CUST-1196,Rohan Mehta #197,Fashion & Apparel,113,26,1696.29,0.39,1,0.0,5,0
+CUST-1197,Rachel Martin #198,Fashion & Apparel,67,36,3514.92,0.2,1,4.7,3,0
+CUST-1198,Pooja Verma #199,Fashion & Apparel,84,13,700.7,0.17,1,0.2,5,0
+CUST-1199,James Lewis #200,Electronics,20,32,3165.45,0.42,1,0.3,1,0
+CUST-1200,Rohan Mehta #201,Electronics,117,17,552.35,0.34,3,2.9,4,1
+CUST-1201,James Lewis #202,Electronics,94,36,3277.0,0.36,1,4.4,4,0
+CUST-1202,Rachel Martin #203,Sports & Fitness,35,19,1843.79,0.05,0,1.7,2,0
+CUST-1203,Karan Malhotra #204,Home & Kitchen,99,35,1415.91,0.34,2,0.8,3,1
+CUST-1204,Rachel Martin #205,Electronics,113,28,1724.22,0.08,4,1.0,2,1
+CUST-1205,Aditya Nair #206,Electronics,103,1,39.07,0.34,3,0.9,5,0
+CUST-1206,Aarav Sharma #207,Home & Kitchen,91,18,1531.1,0.3,1,0.9,3,0
+CUST-1207,Neha Joshi #208,Electronics,90,33,2326.65,0.26,0,0.6,4,0
+CUST-1208,Karan Malhotra #209,Electronics,78,12,948.03,0.13,1,2.1,2,0
+CUST-1209,Laura Harris #210,Sports & Fitness,17,8,333.61,0.79,3,5.1,2,1
+CUST-1210,Neha Joshi #211,Fashion & Apparel,18,24,1031.96,0.36,0,0.8,5,0
+CUST-1211,Aarav Sharma #212,Home & Kitchen,45,16,456.44,0.23,2,0.5,4,0
+CUST-1212,John Miller #213,Sports & Fitness,116,4,209.5,0.35,2,4.0,5,1
+CUST-1213,Laura Harris #214,Fashion & Apparel,93,38,2757.98,0.13,3,3.0,2,1
+CUST-1214,Sneha Rao #215,Electronics,84,27,2643.96,0.41,1,5.9,2,0
+CUST-1215,Rohan Mehta #216,Electronics,53,9,735.2,0.17,4,0.4,3,0
+CUST-1216,Karan Malhotra #217,Beauty & Care,91,16,992.14,0.05,3,0.3,3,0
+CUST-1217,Jessica White #218,Beauty & Care,82,12,1272.18,0.14,3,1.7,2,1
+CUST-1218,Jessica White #219,Beauty & Care,68,31,2670.21,0.66,2,2.1,4,1
+CUST-1219,Rachel Martin #220,Electronics,65,24,2497.54,0.07,3,1.4,3,0
+CUST-1220,Daniel Clark #221,Beauty & Care,114,14,977.83,0.11,0,2.0,2,0
+CUST-1221,Diya Patel #222,Sports & Fitness,1,25,1175.17,0.03,2,0.4,3,0
+CUST-1222,Aarav Sharma #223,Home & Kitchen,58,34,1002.67,0.37,0,1.4,4,0
+CUST-1223,Jessica White #224,Sports & Fitness,26,3,260.15,0.11,1,2.4,4,0
+CUST-1224,Emily Davis #225,Beauty & Care,109,24,847.46,0.04,4,1.2,3,1
+CUST-1225,Vikram Singh #226,Home & Kitchen,20,9,456.62,0.74,2,2.5,3,0
+CUST-1226,Vikram Singh #227,Home & Kitchen,116,26,1826.76,0.76,1,1.3,2,1
+CUST-1227,Aditya Nair #228,Fashion & Apparel,87,20,1459.51,0.63,2,0.9,5,0
+CUST-1228,Aditya Nair #229,Electronics,10,10,760.5,0.3,2,0.8,5,0
+CUST-1229,Rohan Mehta #230,Home & Kitchen,59,19,743.5,0.15,1,1.2,4,0
+CUST-1230,James Lewis #231,Fashion & Apparel,75,3,171.83,0.36,3,0.1,1,1
+CUST-1231,Jessica White #232,Beauty & Care,41,24,1859.08,0.24,4,2.4,3,1
+CUST-1232,Jessica White #233,Sports & Fitness,105,5,537.17,0.13,3,4.1,4,1
+CUST-1233,Rohan Mehta #234,Beauty & Care,5,3,260.55,0.21,0,1.0,5,0
+CUST-1234,Rachel Martin #235,Electronics,65,27,2792.38,0.53,1,0.1,5,0
+CUST-1235,Aarav Sharma #236,Fashion & Apparel,17,16,1436.61,0.5,1,9.5,5,0
+CUST-1236,Rachel Martin #237,Electronics,22,15,1129.44,0.59,0,0.7,1,0
+CUST-1237,John Miller #238,Home & Kitchen,98,35,1446.27,0.79,0,0.3,5,0
+CUST-1238,Daniel Clark #239,Beauty & Care,109,12,980.02,0.08,3,1.0,4,0
+CUST-1239,Neha Joshi #240,Sports & Fitness,41,26,2027.67,0.35,0,3.0,4,0
+CUST-1240,Pooja Verma #241,Fashion & Apparel,93,34,2591.14,0.29,2,0.8,3,0
+CUST-1241,Ananya Iyer #242,Sports & Fitness,68,23,1532.53,0.68,4,1.9,3,1
+CUST-1242,Neha Joshi #243,Beauty & Care,69,31,2168.01,0.05,1,1.2,3,0
+CUST-1243,Rachel Martin #244,Fashion & Apparel,11,20,1068.55,0.23,1,0.3,2,0
+CUST-1244,Rohan Mehta #245,Beauty & Care,56,12,829.7,0.17,1,0.9,3,0
+CUST-1245,Jessica White #246,Fashion & Apparel,51,23,961.22,0.7,4,2.8,5,0
+CUST-1246,Rohan Mehta #247,Fashion & Apparel,21,4,373.76,0.76,4,2.1,1,1
+CUST-1247,Laura Harris #248,Home & Kitchen,99,23,938.19,0.16,2,0.3,2,0
+CUST-1248,Sarah Wilson #249,Fashion & Apparel,76,1,32.22,0.33,1,0.4,2,0
+CUST-1249,Laura Harris #250,Home & Kitchen,26,25,1552.02,0.6,1,2.3,3,0
+CUST-1250,Diya Patel #251,Home & Kitchen,115,2,161.91,0.08,6,3.7,5,1
+CUST-1251,Rohan Mehta #252,Home & Kitchen,19,30,1866.18,0.73,4,0.9,2,0
+CUST-1252,Jessica White #253,Fashion & Apparel,109,3,145.57,0.14,2,2.0,2,1
+CUST-1253,Aditya Nair #254,Fashion & Apparel,60,21,1521.34,0.18,1,0.4,5,0
+CUST-1254,Pooja Verma #255,Home & Kitchen,71,25,1362.38,0.55,2,0.8,5,0
+CUST-1255,Aarav Sharma #256,Fashion & Apparel,47,20,2085.88,0.63,2,0.0,1,1
+CUST-1256,Pooja Verma #257,Fashion & Apparel,119,22,2275.35,0.64,1,3.2,4,1
+CUST-1257,Aarav Sharma #258,Electronics,71,21,1421.73,0.02,0,1.1,4,0
+CUST-1258,Sarah Wilson #259,Home & Kitchen,26,33,1744.71,0.1,0,3.7,4,0
+CUST-1259,Jessica White #260,Electronics,40,38,3330.94,0.35,1,2.7,3,0
+CUST-1260,Rachel Martin #261,Home & Kitchen,5,15,421.81,0.75,2,3.9,5,0
+CUST-1261,Neha Joshi #262,Beauty & Care,21,15,980.33,0.24,3,0.7,1,1
+CUST-1262,Karan Malhotra #263,Fashion & Apparel,78,25,1339.69,0.45,0,0.5,2,0
+CUST-1263,Rohan Mehta #264,Fashion & Apparel,4,21,2168.16,0.12,0,7.9,3,0
+CUST-1264,Daniel Clark #265,Sports & Fitness,23,24,624.49,0.1,4,2.8,3,0
+CUST-1265,Aarav Sharma #266,Beauty & Care,106,5,359.95,0.16,5,4.0,5,1
+CUST-1266,Jessica White #267,Sports & Fitness,84,6,527.74,0.08,2,0.0,4,0
+CUST-1267,Emily Davis #268,Beauty & Care,15,23,1523.21,0.27,1,1.0,1,0
+CUST-1268,James Lewis #269,Electronics,114,4,129.04,0.71,1,3.0,3,1
+CUST-1269,Sarah Wilson #270,Electronics,116,27,2906.8,0.21,2,0.2,3,0
+CUST-1270,Ananya Iyer #271,Fashion & Apparel,109,18,1242.56,0.57,1,1.8,5,0
+CUST-1271,Ananya Iyer #272,Electronics,93,21,1621.32,0.09,2,1.2,4,0
+CUST-1272,Michael Brown #273,Fashion & Apparel,8,28,1263.13,0.19,0,0.0,4,0
+CUST-1273,James Lewis #274,Fashion & Apparel,41,35,2313.41,0.14,0,0.6,4,0
+CUST-1274,Neha Joshi #275,Fashion & Apparel,112,22,1352.51,0.41,3,0.7,4,1
+CUST-1275,Diya Patel #276,Home & Kitchen,19,23,721.42,0.27,2,0.3,4,0
+CUST-1276,Aarav Sharma #277,Home & Kitchen,112,3,102.07,0.52,2,2.2,2,1
+CUST-1277,David Taylor #278,Fashion & Apparel,103,10,961.85,0.68,0,0.6,5,0
+CUST-1278,Aarav Sharma #279,Beauty & Care,46,25,1134.62,0.28,0,0.7,4,0
+CUST-1279,Vikram Singh #280,Fashion & Apparel,28,8,332.57,0.1,1,5.0,4,0
+CUST-1280,Jessica White #281,Beauty & Care,110,11,747.09,0.57,1,1.4,5,0
+CUST-1281,James Lewis #282,Electronics,91,5,451.72,0.18,0,1.1,4,0
+CUST-1282,Pooja Verma #283,Sports & Fitness,68,37,1119.82,0.59,2,2.8,4,0
+CUST-1283,Rohan Mehta #284,Home & Kitchen,15,38,2813.09,0.39,3,5.3,5,0
+CUST-1284,Daniel Clark #285,Fashion & Apparel,99,29,1018.85,0.19,2,0.1,2,0
+CUST-1285,Daniel Clark #286,Electronics,37,5,140.5,0.75,5,1.3,3,1
+CUST-1286,Emily Davis #287,Fashion & Apparel,1,9,265.35,0.79,4,2.1,4,0
+CUST-1287,Sarah Wilson #288,Electronics,67,2,191.81,0.17,2,0.8,3,0
+CUST-1288,Ananya Iyer #289,Electronics,111,1,35.03,0.33,1,3.3,4,0
+CUST-1289,Rohan Mehta #290,Home & Kitchen,24,30,865.14,0.56,1,7.8,4,0
+CUST-1290,Aditya Nair #291,Fashion & Apparel,27,11,684.44,0.25,2,6.3,4,0
+CUST-1291,Vikram Singh #292,Home & Kitchen,40,28,2708.7,0.41,2,0.7,5,0
+CUST-1292,Daniel Clark #293,Sports & Fitness,63,12,567.66,0.44,3,0.6,2,0
+CUST-1293,Sarah Wilson #294,Fashion & Apparel,61,39,2372.98,0.32,2,6.9,4,0
+CUST-1294,Rohan Mehta #295,Home & Kitchen,36,26,738.23,0.43,0,1.4,4,0
+CUST-1295,Aarav Sharma #296,Electronics,98,13,821.23,0.39,3,0.5,3,0
+CUST-1296,Rachel Martin #297,Home & Kitchen,93,8,592.78,0.15,6,2.7,2,1
+CUST-1297,Aarav Sharma #298,Fashion & Apparel,24,28,2058.76,0.52,2,0.7,5,0
+CUST-1298,Rohan Mehta #299,Sports & Fitness,24,30,1597.69,0.75,2,0.7,4,0
+CUST-1299,Laura Harris #300,Beauty & Care,106,9,466.38,0.69,1,4.7,4,1
+CUST-1300,Sneha Rao #301,Fashion & Apparel,4,39,1328.46,0.33,1,0.4,3,0
+CUST-1301,Rohan Mehta #302,Electronics,67,31,1741.51,0.64,2,0.1,2,1
+CUST-1302,Neha Joshi #303,Beauty & Care,34,21,702.6,0.4,1,0.7,3,0
+CUST-1303,Sarah Wilson #304,Beauty & Care,57,34,3065.46,0.26,1,2.1,3,0
+CUST-1304,Laura Harris #305,Electronics,49,31,3321.13,0.11,0,0.3,5,0
+CUST-1305,David Taylor #306,Fashion & Apparel,87,25,2686.41,0.34,1,1.4,1,0
+CUST-1306,Diya Patel #307,Beauty & Care,53,12,1182.37,0.47,2,2.2,5,0
+CUST-1307,Sneha Rao #308,Electronics,116,1,76.07,0.22,3,4.2,5,1
+CUST-1308,Diya Patel #309,Sports & Fitness,23,22,1860.62,0.27,0,0.6,5,0
+CUST-1309,Daniel Clark #310,Fashion & Apparel,109,37,1821.97,0.42,2,3.7,3,1
+CUST-1310,Neha Joshi #311,Electronics,69,1,78.62,0.53,2,0.6,5,0
+CUST-1311,Aarav Sharma #312,Beauty & Care,95,1,63.73,0.47,2,2.5,3,1
+CUST-1312,Aditya Nair #313,Fashion & Apparel,53,21,1385.4,0.54,0,1.2,1,0
+CUST-1313,John Miller #314,Fashion & Apparel,62,15,1341.17,0.67,2,0.3,2,1
+CUST-1314,Jessica White #315,Electronics,41,17,832.37,0.14,3,2.8,5,0
+CUST-1315,Karan Malhotra #316,Electronics,57,22,1144.73,0.21,2,0.5,1,0
+CUST-1316,Sneha Rao #317,Home & Kitchen,60,38,3936.59,0.15,0,0.4,3,0
+CUST-1317,Rohan Mehta #318,Fashion & Apparel,54,35,1042.27,0.68,0,1.0,1,1
+CUST-1318,Laura Harris #319,Home & Kitchen,70,16,1060.46,0.38,3,2.3,2,1
+CUST-1319,Michael Brown #320,Beauty & Care,101,8,820.7,0.26,5,0.6,1,1
+CUST-1320,Karan Malhotra #321,Home & Kitchen,57,17,1306.97,0.14,0,0.4,5,0
+CUST-1321,Pooja Verma #322,Electronics,10,17,1214.56,0.39,0,0.0,4,0
+CUST-1322,Michael Brown #323,Fashion & Apparel,40,26,1201.93,0.21,1,1.4,5,0
+CUST-1323,Rachel Martin #324,Sports & Fitness,7,13,704.32,0.55,2,1.2,4,0
+CUST-1324,Aarav Sharma #325,Beauty & Care,103,17,1656.21,0.61,1,0.6,5,0
+CUST-1325,Neha Joshi #326,Home & Kitchen,38,38,2756.27,0.37,2,0.1,3,0
+CUST-1326,Sarah Wilson #327,Fashion & Apparel,85,17,1168.8,0.39,4,1.2,4,1
+CUST-1327,Jessica White #328,Fashion & Apparel,61,14,468.5,0.74,1,3.4,4,0
+CUST-1328,Sarah Wilson #329,Home & Kitchen,84,6,158.17,0.68,1,2.8,3,1
+CUST-1329,Emily Davis #330,Beauty & Care,3,35,3741.96,0.59,2,4.3,4,0
+CUST-1330,James Lewis #331,Home & Kitchen,51,14,798.61,0.56,2,0.0,4,0
+CUST-1331,David Taylor #332,Beauty & Care,86,8,610.18,0.17,3,7.5,4,1
+CUST-1332,Diya Patel #333,Beauty & Care,47,15,476.64,0.13,0,0.9,4,0
+CUST-1333,Diya Patel #334,Electronics,68,27,2242.75,0.19,2,10.2,2,1
+CUST-1334,James Lewis #335,Fashion & Apparel,92,13,1355.49,0.39,0,0.6,4,0
+CUST-1335,Daniel Clark #336,Electronics,76,31,2291.88,0.53,0,1.4,2,1
+CUST-1336,Rachel Martin #337,Electronics,38,35,1250.19,0.26,3,1.0,4,0
+CUST-1337,Sneha Rao #338,Beauty & Care,115,6,446.68,0.8,5,1.0,4,1
+CUST-1338,Ananya Iyer #339,Fashion & Apparel,36,5,450.7,0.27,2,4.1,5,0
+CUST-1339,David Taylor #340,Fashion & Apparel,111,22,1310.0,0.76,0,3.0,1,1
+CUST-1340,John Miller #341,Electronics,41,23,2295.08,0.14,3,10.7,1,1
+CUST-1341,Vikram Singh #342,Fashion & Apparel,69,25,2003.45,0.35,0,2.1,1,0
+CUST-1342,Aarav Sharma #343,Electronics,13,34,3448.83,0.06,0,1.4,3,0
+CUST-1343,Neha Joshi #344,Electronics,87,26,2027.95,0.11,0,0.2,4,0
+CUST-1344,Emily Davis #345,Home & Kitchen,58,5,180.8,0.67,1,12.5,4,1
+CUST-1345,Emily Davis #346,Fashion & Apparel,50,26,1334.42,0.4,3,1.8,4,0
+CUST-1346,Vikram Singh #347,Home & Kitchen,30,20,843.05,0.1,2,2.7,5,0
+CUST-1347,Karan Malhotra #348,Electronics,62,6,613.5,0.38,0,1.1,3,0
+CUST-1348,Pooja Verma #349,Electronics,101,6,537.8,0.18,0,1.7,1,1
+CUST-1349,Ananya Iyer #350,Fashion & Apparel,25,18,1484.89,0.9,0,6.3,1,1
+CUST-1350,Michael Brown #351,Home & Kitchen,112,4,202.33,0.7,0,0.4,5,0
+CUST-1351,Rachel Martin #352,Home & Kitchen,27,17,690.94,0.8,1,0.8,4,0
+CUST-1352,David Taylor #353,Fashion & Apparel,51,14,1250.18,0.57,5,0.4,4,0
+CUST-1353,Rohan Mehta #354,Fashion & Apparel,78,14,914.25,0.52,1,3.5,3,1
+CUST-1354,Neha Joshi #355,Home & Kitchen,57,13,574.5,0.26,4,0.1,3,0
+CUST-1355,Rachel Martin #356,Electronics,112,7,541.89,0.05,0,0.2,5,0
+CUST-1356,Jessica White #357,Fashion & Apparel,47,15,426.43,0.48,3,0.8,1,1
+CUST-1357,Michael Brown #358,Beauty & Care,118,19,1001.76,0.61,5,1.6,4,1
+CUST-1358,Laura Harris #359,Home & Kitchen,100,35,2268.96,0.52,1,1.1,3,0
+CUST-1359,Sneha Rao #360,Fashion & Apparel,39,17,638.8,0.64,0,0.1,1,0
+CUST-1360,James Lewis #361,Sports & Fitness,16,35,3804.35,0.29,3,6.9,4,0
+CUST-1361,Daniel Clark #362,Beauty & Care,22,19,812.69,0.44,1,6.7,3,0
+CUST-1362,James Lewis #363,Fashion & Apparel,85,20,721.6,0.16,1,0.7,4,0
+CUST-1363,Vikram Singh #364,Home & Kitchen,54,36,1522.82,0.4,2,2.9,4,0
+CUST-1364,Aditya Nair #365,Home & Kitchen,21,35,3162.96,0.67,1,1.9,3,0
+CUST-1365,Emily Davis #366,Fashion & Apparel,72,32,1957.38,0.41,1,0.6,4,0
+CUST-1366,Aarav Sharma #367,Fashion & Apparel,113,24,1753.45,0.33,1,0.7,4,0
+CUST-1367,Aarav Sharma #368,Fashion & Apparel,16,17,455.36,0.3,4,1.5,2,0
+CUST-1368,David Taylor #369,Home & Kitchen,59,7,195.49,0.55,3,1.2,4,0
+CUST-1369,Diya Patel #370,Fashion & Apparel,119,1,62.9,0.24,0,0.8,4,0
+CUST-1370,Jessica White #371,Beauty & Care,31,35,3304.55,0.7,2,3.6,1,0
+CUST-1371,Neha Joshi #372,Home & Kitchen,42,32,3207.85,0.79,1,1.4,5,0
+CUST-1372,Michael Brown #373,Electronics,74,36,1165.32,0.2,1,2.3,3,0
+CUST-1373,Aarav Sharma #374,Home & Kitchen,32,13,919.89,0.27,3,0.5,5,0
+CUST-1374,Jessica White #375,Fashion & Apparel,59,6,615.75,0.18,2,1.7,5,0
+CUST-1375,Karan Malhotra #376,Home & Kitchen,34,14,811.69,0.68,1,0.8,3,0
+CUST-1376,Vikram Singh #377,Home & Kitchen,9,37,3533.98,0.11,1,1.6,3,0
+CUST-1377,Rohan Mehta #378,Electronics,81,15,545.46,0.41,1,3.3,3,0
+CUST-1378,Emily Davis #379,Fashion & Apparel,11,4,418.03,0.15,1,3.2,3,0
+CUST-1379,Jessica White #380,Electronics,96,16,1421.94,0.46,1,1.0,5,0
+CUST-1380,James Lewis #381,Electronics,10,28,2940.38,0.65,2,2.6,4,0
+CUST-1381,Vikram Singh #382,Fashion & Apparel,86,16,1320.2,0.43,2,6.2,2,1
+CUST-1382,Sarah Wilson #383,Fashion & Apparel,17,4,223.56,0.04,0,2.2,4,0
+CUST-1383,Vikram Singh #384,Sports & Fitness,68,26,2723.38,0.47,1,0.4,5,0
+CUST-1384,David Taylor #385,Fashion & Apparel,48,28,1355.85,0.05,0,2.5,4,0
+CUST-1385,Daniel Clark #386,Fashion & Apparel,52,32,1703.51,0.38,0,0.2,4,0
+CUST-1386,Sarah Wilson #387,Home & Kitchen,111,2,169.14,0.43,4,4.5,4,1
+CUST-1387,Rachel Martin #388,Electronics,25,31,2791.61,0.16,1,1.6,3,0
+CUST-1388,Vikram Singh #389,Sports & Fitness,21,3,312.0,0.3,0,1.1,3,0
+CUST-1389,Emily Davis #390,Home & Kitchen,101,8,339.27,0.46,0,0.1,4,0
+CUST-1390,Jessica White #391,Beauty & Care,102,24,2227.92,0.77,0,1.1,3,1
+CUST-1391,Jessica White #392,Electronics,113,15,1316.65,0.75,0,5.1,4,1
+CUST-1392,Karan Malhotra #393,Fashion & Apparel,65,31,943.1,0.42,1,0.0,4,0
+CUST-1393,Pooja Verma #394,Fashion & Apparel,63,9,521.23,0.34,4,1.4,4,0
+CUST-1394,Aarav Sharma #395,Beauty & Care,89,39,1912.37,0.13,1,5.9,2,0
+CUST-1395,Vikram Singh #396,Electronics,51,2,101.76,0.19,0,1.1,2,0
+CUST-1396,Sneha Rao #397,Fashion & Apparel,36,8,868.4,0.35,2,1.2,2,0
+CUST-1397,Vikram Singh #398,Sports & Fitness,81,7,557.45,0.64,0,1.9,3,0
+CUST-1398,Pooja Verma #399,Fashion & Apparel,105,39,3354.1,0.4,1,1.4,3,0
+CUST-1399,Diya Patel #400,Fashion & Apparel,88,16,1728.2,0.25,1,0.4,4,0
+CUST-1400,Rachel Martin #401,Electronics,66,35,1997.18,0.26,1,0.0,1,0
+CUST-1401,Sneha Rao #402,Sports & Fitness,104,30,2794.69,0.29,1,2.1,3,0
+CUST-1402,James Lewis #403,Electronics,15,10,619.35,0.19,2,5.6,3,0
+CUST-1403,Aarav Sharma #404,Home & Kitchen,96,38,3758.59,0.18,6,0.2,3,1
+CUST-1404,Vikram Singh #405,Beauty & Care,39,18,726.41,0.19,6,0.5,3,0
+CUST-1405,Michael Brown #406,Electronics,70,5,527.77,0.4,6,1.0,2,1
+CUST-1406,Pooja Verma #407,Home & Kitchen,1,29,1264.27,0.12,0,3.6,5,0
+CUST-1407,Jessica White #408,Electronics,111,39,2056.42,0.07,2,0.7,2,1
+CUST-1408,Jessica White #409,Fashion & Apparel,23,34,3035.4,0.45,0,4.7,4,0
+CUST-1409,Diya Patel #410,Beauty & Care,39,23,1344.79,0.36,4,0.1,5,0
+CUST-1410,Daniel Clark #411,Beauty & Care,57,5,383.49,0.71,1,6.2,3,1
+CUST-1411,Rachel Martin #412,Home & Kitchen,81,30,1883.66,0.73,1,1.8,5,0
+CUST-1412,Emily Davis #413,Fashion & Apparel,34,6,528.61,0.23,3,2.4,2,0
+CUST-1413,Laura Harris #414,Electronics,41,4,177.63,0.48,0,1.0,3,0
+CUST-1414,Rohan Mehta #415,Electronics,93,29,869.1,0.11,1,3.4,3,0
+CUST-1415,Aarav Sharma #416,Electronics,73,23,1161.36,0.17,0,0.4,1,0
+CUST-1416,Aarav Sharma #417,Electronics,13,6,391.9,0.39,1,0.1,3,0
+CUST-1417,James Lewis #418,Fashion & Apparel,70,32,1257.01,0.54,2,1.1,3,1
+CUST-1418,John Miller #419,Fashion & Apparel,6,18,992.84,0.15,0,4.2,4,0
+CUST-1419,Vikram Singh #420,Fashion & Apparel,84,15,884.98,0.64,3,3.1,5,0
+CUST-1420,Emily Davis #421,Electronics,52,32,956.11,0.65,2,1.6,1,0
+CUST-1421,Rohan Mehta #422,Fashion & Apparel,117,9,671.23,0.34,5,1.9,3,1
+CUST-1422,Aarav Sharma #423,Beauty & Care,3,37,3706.26,0.15,3,0.3,3,0
+CUST-1423,Aarav Sharma #424,Fashion & Apparel,81,10,378.98,0.08,3,4.0,3,0
+CUST-1424,Neha Joshi #425,Sports & Fitness,63,20,1516.27,0.92,1,3.4,4,0
+CUST-1425,Sneha Rao #426,Beauty & Care,49,6,489.02,0.09,2,2.4,3,0
+CUST-1426,John Miller #427,Electronics,76,3,181.93,0.07,4,1.4,1,1
+CUST-1427,Emily Davis #428,Beauty & Care,112,11,930.53,0.31,2,7.3,4,1
+CUST-1428,Michael Brown #429,Home & Kitchen,47,17,1018.51,0.29,1,4.6,5,0
+CUST-1429,Emily Davis #430,Home & Kitchen,109,32,2172.61,0.29,2,2.3,3,0
+CUST-1430,Sarah Wilson #431,Fashion & Apparel,55,4,102.5,0.26,5,1.0,4,0
+CUST-1431,Diya Patel #432,Fashion & Apparel,64,4,335.18,0.92,3,2.1,2,1
+CUST-1432,James Lewis #433,Fashion & Apparel,65,17,1380.64,0.81,1,1.9,2,1
+CUST-1433,Laura Harris #434,Fashion & Apparel,81,19,537.02,0.55,4,1.1,2,1
+CUST-1434,Rohan Mehta #435,Home & Kitchen,67,5,281.51,0.63,0,0.8,3,0
+CUST-1435,Daniel Clark #436,Home & Kitchen,90,32,3462.97,0.52,2,1.1,5,0
+CUST-1436,Neha Joshi #437,Fashion & Apparel,15,22,1336.78,0.22,2,1.9,3,0
+CUST-1437,Sneha Rao #438,Home & Kitchen,100,6,405.99,0.19,2,1.2,2,1
+CUST-1438,Diya Patel #439,Electronics,32,35,3582.04,0.5,3,0.7,2,0
+CUST-1439,James Lewis #440,Electronics,96,22,1891.28,0.14,2,3.1,3,0
+CUST-1440,Aditya Nair #441,Beauty & Care,68,1,74.48,0.43,0,1.7,4,0
+CUST-1441,Karan Malhotra #442,Fashion & Apparel,18,20,1856.27,0.49,1,0.2,3,0
+CUST-1442,Pooja Verma #443,Electronics,113,22,2166.36,0.13,1,1.0,3,0
+CUST-1443,Laura Harris #444,Electronics,83,11,702.19,0.26,1,4.8,4,0
+CUST-1444,Michael Brown #445,Electronics,43,13,849.99,0.39,2,3.1,2,1
+CUST-1445,John Miller #446,Sports & Fitness,116,3,173.44,0.18,2,0.9,1,1
+CUST-1446,Pooja Verma #447,Home & Kitchen,35,9,964.53,0.14,0,6.1,1,0
+CUST-1447,Pooja Verma #448,Sports & Fitness,104,12,1011.11,0.22,3,0.2,2,1
+CUST-1448,Sneha Rao #449,Home & Kitchen,78,23,737.7,0.91,1,7.2,1,1
+CUST-1449,Vikram Singh #450,Fashion & Apparel,58,14,1376.92,0.23,2,0.6,3,0
+CUST-1450,Aditya Nair #451,Fashion & Apparel,33,33,2172.97,0.81,1,0.0,4,0
+CUST-1451,Rohan Mehta #452,Home & Kitchen,14,18,555.19,0.44,2,1.3,4,0
+CUST-1452,Daniel Clark #453,Electronics,34,9,645.53,0.6,4,1.0,4,0
+CUST-1453,Rohan Mehta #454,Beauty & Care,61,23,1390.56,0.32,1,1.7,5,0
+CUST-1454,Jessica White #455,Beauty & Care,119,10,996.09,0.69,1,3.5,2,1
+CUST-1455,Pooja Verma #456,Fashion & Apparel,4,19,804.45,0.2,3,4.1,5,0
+CUST-1456,Laura Harris #457,Sports & Fitness,88,5,476.25,0.57,3,1.1,3,1
+CUST-1457,Daniel Clark #458,Beauty & Care,59,23,1665.28,0.33,1,1.2,3,0
+CUST-1458,Karan Malhotra #459,Home & Kitchen,29,30,889.26,0.3,2,0.4,3,0
+CUST-1459,Vikram Singh #460,Electronics,83,25,2690.17,0.38,2,0.1,1,0
+CUST-1460,Emily Davis #461,Fashion & Apparel,6,28,1920.02,0.61,2,2.3,5,0
+CUST-1461,Daniel Clark #462,Fashion & Apparel,97,34,1690.63,0.16,1,0.1,2,0
+CUST-1462,Michael Brown #463,Electronics,49,25,1622.49,0.19,2,2.9,3,0
+CUST-1463,Rohan Mehta #464,Electronics,40,10,979.18,0.35,1,1.7,3,0
+CUST-1464,Aditya Nair #465,Beauty & Care,83,14,712.83,0.51,1,0.5,1,1
+CUST-1465,Daniel Clark #466,Electronics,117,30,1241.32,0.49,2,1.7,2,1
+CUST-1466,Daniel Clark #467,Home & Kitchen,65,25,899.28,0.27,2,0.4,1,1
+CUST-1467,Rachel Martin #468,Sports & Fitness,69,14,704.45,0.59,0,1.3,2,0
+CUST-1468,Jessica White #469,Beauty & Care,27,35,3195.64,0.61,3,3.5,5,0
+CUST-1469,Michael Brown #470,Fashion & Apparel,80,34,2213.0,0.26,3,1.4,3,0
+CUST-1470,James Lewis #471,Beauty & Care,6,10,443.36,0.42,1,0.4,2,0
+CUST-1471,Daniel Clark #472,Electronics,104,35,1369.4,0.31,3,2.8,4,1
+CUST-1472,Pooja Verma #473,Electronics,13,11,586.1,0.55,4,0.5,5,0
+CUST-1473,Emily Davis #474,Home & Kitchen,112,11,1153.83,0.15,3,3.0,2,1
+CUST-1474,Aditya Nair #475,Fashion & Apparel,64,21,1137.3,0.3,3,1.4,2,0
+CUST-1475,James Lewis #476,Fashion & Apparel,62,21,2288.8,0.49,1,1.3,5,0
+CUST-1476,Emily Davis #477,Home & Kitchen,99,22,1457.38,0.47,0,4.2,2,1
+CUST-1477,Aditya Nair #478,Electronics,19,7,281.6,0.27,2,2.7,3,0
+CUST-1478,Karan Malhotra #479,Electronics,76,17,1712.7,0.2,2,0.1,2,1
+CUST-1479,Sarah Wilson #480,Fashion & Apparel,80,2,128.26,0.44,1,0.8,5,0
+CUST-1480,Rachel Martin #481,Beauty & Care,43,12,1023.86,0.48,4,4.5,5,0
+CUST-1481,James Lewis #482,Home & Kitchen,74,18,1955.08,0.25,5,0.0,4,0
+CUST-1482,David Taylor #483,Fashion & Apparel,89,11,321.91,0.25,1,1.7,3,0
+CUST-1483,Jessica White #484,Fashion & Apparel,20,16,531.5,0.47,3,2.9,3,0
+CUST-1484,Vikram Singh #485,Electronics,95,18,1552.3,0.6,3,2.1,2,1
+CUST-1485,Rohan Mehta #486,Electronics,68,35,1713.43,0.55,5,3.1,5,1
+CUST-1486,Emily Davis #487,Beauty & Care,44,26,1057.31,0.27,2,2.8,5,0
+CUST-1487,Rachel Martin #488,Fashion & Apparel,23,16,453.53,0.27,2,2.6,3,0
+CUST-1488,Pooja Verma #489,Electronics,2,6,161.14,0.25,3,3.8,4,0
+CUST-1489,Jessica White #490,Home & Kitchen,22,12,1089.98,0.25,2,2.3,2,0
+CUST-1490,Karan Malhotra #491,Home & Kitchen,115,13,473.55,0.19,2,1.1,3,0
+CUST-1491,Michael Brown #492,Home & Kitchen,57,4,259.03,0.5,2,1.4,4,0
+CUST-1492,Sneha Rao #493,Electronics,101,39,2983.55,0.39,1,2.8,3,0
+CUST-1493,Karan Malhotra #494,Electronics,72,2,122.82,0.62,4,4.6,3,1
+CUST-1494,Sarah Wilson #495,Electronics,7,26,709.91,0.22,2,0.7,1,0
+CUST-1495,Vikram Singh #496,Electronics,78,27,2473.14,0.39,4,0.9,4,0
+CUST-1496,Rohan Mehta #497,Home & Kitchen,56,27,699.13,0.35,2,5.9,5,0
+CUST-1497,John Miller #498,Beauty & Care,119,15,1346.41,0.09,4,1.9,5,0
+CUST-1498,John Miller #499,Home & Kitchen,67,8,807.45,0.56,4,0.4,4,0
+CUST-1499,Laura Harris #500,Beauty & Care,114,7,432.54,0.73,0,2.4,3,1
+CUST-1500,David Taylor #501,Fashion & Apparel,16,12,846.25,0.39,1,10.3,2,1
+CUST-1501,Emily Davis #502,Home & Kitchen,119,13,852.07,0.62,2,3.8,5,0
+CUST-1502,Aditya Nair #503,Fashion & Apparel,83,17,987.41,0.08,2,3.0,4,0
+CUST-1503,Sneha Rao #504,Fashion & Apparel,51,17,1707.33,0.41,1,0.5,4,0
+CUST-1504,Emily Davis #505,Fashion & Apparel,82,36,3635.44,0.16,0,4.6,4,0
+CUST-1505,Daniel Clark #506,Electronics,116,21,1124.43,0.82,1,1.6,4,1
+CUST-1506,Ananya Iyer #507,Fashion & Apparel,80,8,618.25,0.15,3,4.8,1,1
+CUST-1507,Karan Malhotra #508,Sports & Fitness,72,5,518.94,0.19,1,0.9,2,0
+CUST-1508,Sarah Wilson #509,Electronics,97,26,2776.15,0.35,1,0.1,4,0
+CUST-1509,Michael Brown #510,Electronics,113,16,1092.18,0.05,3,1.4,5,0
+CUST-1510,Neha Joshi #511,Fashion & Apparel,12,36,2285.64,0.35,1,0.7,4,0
+CUST-1511,Sneha Rao #512,Beauty & Care,53,28,1363.29,0.31,2,2.8,3,0
+CUST-1512,Aditya Nair #513,Home & Kitchen,75,29,3088.62,0.59,1,6.9,3,1
+CUST-1513,Laura Harris #514,Home & Kitchen,5,12,445.67,0.58,1,2.6,4,0
+CUST-1514,Diya Patel #515,Electronics,27,37,2748.56,0.28,2,4.8,4,0
+CUST-1515,Vikram Singh #516,Home & Kitchen,12,30,1470.5,0.24,3,1.3,4,0
+CUST-1516,Vikram Singh #517,Fashion & Apparel,17,23,1120.46,0.06,2,3.2,2,0
+CUST-1517,Ananya Iyer #518,Beauty & Care,6,16,950.76,0.55,0,4.1,5,0
+CUST-1518,James Lewis #519,Home & Kitchen,97,14,1538.56,0.43,1,2.7,4,0
+CUST-1519,Neha Joshi #520,Electronics,5,10,296.72,0.3,2,1.6,4,0
+CUST-1520,Jessica White #521,Electronics,57,7,519.23,0.33,0,2.2,2,0
+CUST-1521,Michael Brown #522,Electronics,28,37,1184.69,0.28,2,2.7,3,0
+CUST-1522,Aarav Sharma #523,Fashion & Apparel,78,29,1105.89,0.36,2,0.6,5,0
+CUST-1523,Rachel Martin #524,Fashion & Apparel,69,3,187.09,0.27,1,3.6,1,1
+CUST-1524,Daniel Clark #525,Home & Kitchen,118,15,1025.84,0.58,7,6.6,3,1
+CUST-1525,Karan Malhotra #526,Fashion & Apparel,59,36,1691.9,0.62,0,1.4,3,0
+CUST-1526,Michael Brown #527,Fashion & Apparel,33,19,986.08,0.75,2,2.7,4,0
+CUST-1527,Pooja Verma #528,Electronics,62,13,421.1,0.42,0,2.9,2,1
+CUST-1528,Pooja Verma #529,Electronics,50,21,1066.25,0.45,4,2.4,2,1
+CUST-1529,Ananya Iyer #530,Beauty & Care,112,37,3964.83,0.5,2,1.7,5,0
+CUST-1530,James Lewis #531,Electronics,105,27,2843.1,0.57,2,4.7,4,1
+CUST-1531,Emily Davis #532,Home & Kitchen,19,29,1550.47,0.25,0,1.3,1,0
+CUST-1532,Karan Malhotra #533,Beauty & Care,86,20,1470.45,0.31,2,0.1,2,0
+CUST-1533,Sneha Rao #534,Home & Kitchen,69,25,2557.89,0.4,2,4.1,5,0
+CUST-1534,James Lewis #535,Beauty & Care,66,6,153.15,0.39,4,2.5,2,1
+CUST-1535,Karan Malhotra #536,Fashion & Apparel,94,36,3380.69,0.51,2,4.2,4,0
+CUST-1536,Rohan Mehta #537,Sports & Fitness,47,2,211.22,0.63,2,0.3,3,0
+CUST-1537,Michael Brown #538,Electronics,39,22,720.78,0.22,2,0.1,5,0
+CUST-1538,Michael Brown #539,Electronics,68,32,1239.14,0.93,0,6.0,4,0
+CUST-1539,Laura Harris #540,Home & Kitchen,33,16,1706.61,0.46,4,0.4,4,0
+CUST-1540,Rachel Martin #541,Sports & Fitness,13,18,1272.44,0.14,2,3.6,1,0
+CUST-1541,Neha Joshi #542,Beauty & Care,84,5,131.03,0.19,6,3.8,5,0
+CUST-1542,Aditya Nair #543,Electronics,54,36,1688.35,0.67,3,2.7,3,1
+CUST-1543,Karan Malhotra #544,Fashion & Apparel,7,30,1897.36,0.21,2,0.3,5,0
+CUST-1544,Aarav Sharma #545,Sports & Fitness,79,19,1594.05,0.38,2,2.4,3,0
+CUST-1545,Rohan Mehta #546,Fashion & Apparel,87,23,2008.33,0.79,2,4.8,4,1
+CUST-1546,Michael Brown #547,Beauty & Care,14,34,3726.77,0.84,5,1.2,1,1
+CUST-1547,Daniel Clark #548,Beauty & Care,87,13,642.7,0.76,0,1.2,4,0
+CUST-1548,Aarav Sharma #549,Fashion & Apparel,19,29,2051.71,0.42,1,1.3,3,0
+CUST-1549,Ananya Iyer #550,Fashion & Apparel,54,36,2531.97,0.5,3,0.2,3,0
+CUST-1550,Ananya Iyer #551,Fashion & Apparel,93,22,1308.56,0.5,2,4.9,1,1
+CUST-1551,Emily Davis #552,Electronics,20,36,1417.64,0.24,2,4.5,2,0
+CUST-1552,Michael Brown #553,Beauty & Care,29,9,972.75,0.41,1,13.6,2,0
+CUST-1553,Michael Brown #554,Fashion & Apparel,24,39,3803.75,0.3,2,1.9,3,0
+CUST-1554,David Taylor #555,Beauty & Care,82,19,1279.81,0.39,1,3.1,5,0
+CUST-1555,Jessica White #556,Electronics,63,38,2898.48,0.17,1,0.5,3,0
+CUST-1556,John Miller #557,Sports & Fitness,74,6,265.9,0.12,4,2.4,4,0
+CUST-1557,Vikram Singh #558,Fashion & Apparel,105,15,1068.33,0.54,3,2.3,1,1
+CUST-1558,Pooja Verma #559,Electronics,57,20,1681.45,0.4,2,5.1,4,0
+CUST-1559,Rohan Mehta #560,Electronics,8,9,619.1,0.3,1,3.9,3,0
+CUST-1560,James Lewis #561,Home & Kitchen,90,32,3493.58,0.44,1,6.1,5,0
+CUST-1561,Rachel Martin #562,Home & Kitchen,62,4,307.86,0.41,1,4.5,4,0
+CUST-1562,Laura Harris #563,Beauty & Care,29,18,1017.59,0.33,4,4.5,3,0
+CUST-1563,David Taylor #564,Electronics,74,5,453.16,0.23,4,0.1,4,0
+CUST-1564,Aditya Nair #565,Electronics,17,20,789.79,0.38,3,4.1,2,0
+CUST-1565,Daniel Clark #566,Fashion & Apparel,66,23,1326.73,0.44,2,2.1,4,0
+CUST-1566,Sarah Wilson #567,Fashion & Apparel,6,11,599.41,0.42,1,1.1,1,0
+CUST-1567,David Taylor #568,Fashion & Apparel,58,37,2283.03,0.97,2,0.1,3,0
+CUST-1568,Aarav Sharma #569,Sports & Fitness,69,22,2011.93,0.26,2,2.5,2,0
+CUST-1569,Rohan Mehta #570,Sports & Fitness,28,4,264.62,0.28,1,0.9,4,0
+CUST-1570,Jessica White #571,Sports & Fitness,62,29,2682.25,0.34,1,1.4,3,0
+CUST-1571,John Miller #572,Beauty & Care,41,34,2516.05,0.35,3,2.5,4,0
+CUST-1572,Emily Davis #573,Fashion & Apparel,69,13,702.99,0.24,2,5.3,3,0
+CUST-1573,Sneha Rao #574,Fashion & Apparel,82,9,844.63,0.6,1,3.8,1,1
+CUST-1574,Jessica White #575,Fashion & Apparel,90,31,1402.89,0.38,2,1.3,4,0
+CUST-1575,Neha Joshi #576,Beauty & Care,84,7,308.51,0.08,2,1.1,4,0
+CUST-1576,Ananya Iyer #577,Electronics,41,4,271.53,0.05,4,0.6,5,0
+CUST-1577,Emily Davis #578,Fashion & Apparel,49,19,896.27,0.31,1,1.0,4,0
+CUST-1578,Neha Joshi #579,Electronics,91,30,773.17,0.01,0,0.3,4,0
+CUST-1579,Pooja Verma #580,Fashion & Apparel,49,31,2483.26,0.33,1,7.8,4,0
+CUST-1580,Neha Joshi #581,Beauty & Care,76,35,2395.5,0.08,0,1.9,2,0
+CUST-1581,Laura Harris #582,Beauty & Care,71,21,1320.25,0.05,1,0.3,2,0
+CUST-1582,Vikram Singh #583,Electronics,3,31,3322.96,0.7,0,1.0,1,0
+CUST-1583,Aditya Nair #584,Sports & Fitness,10,19,1397.49,0.33,0,1.7,3,0
+CUST-1584,Pooja Verma #585,Home & Kitchen,98,31,3050.14,0.09,1,1.7,3,0
+CUST-1585,Daniel Clark #586,Electronics,89,32,1179.3,0.09,3,0.1,5,0
+CUST-1586,Aditya Nair #587,Fashion & Apparel,35,2,146.77,0.63,0,6.6,3,0
+CUST-1587,Aarav Sharma #588,Fashion & Apparel,80,10,987.78,0.28,1,0.7,4,0
+CUST-1588,Rachel Martin #589,Electronics,2,2,149.13,0.08,3,0.0,4,0
+CUST-1589,Michael Brown #590,Sports & Fitness,24,2,172.06,0.1,3,0.2,2,0
+CUST-1590,Jessica White #591,Fashion & Apparel,74,24,1358.97,0.76,5,1.9,1,1
+CUST-1591,Michael Brown #592,Beauty & Care,38,17,558.59,0.14,2,0.3,3,0
+CUST-1592,Sarah Wilson #593,Fashion & Apparel,22,32,2045.49,0.22,1,0.1,4,0
+CUST-1593,Rohan Mehta #594,Electronics,26,16,936.49,0.37,2,1.1,5,0
+CUST-1594,Ananya Iyer #595,Fashion & Apparel,43,16,1579.2,0.63,0,2.1,3,0
+CUST-1595,Laura Harris #596,Electronics,55,39,1783.84,0.47,5,0.3,5,0
+CUST-1596,James Lewis #597,Fashion & Apparel,39,31,3322.34,0.27,1,0.8,3,0
+CUST-1597,Vikram Singh #598,Sports & Fitness,91,24,2554.6,0.35,1,1.2,4,0
+CUST-1598,David Taylor #599,Fashion & Apparel,29,1,46.05,0.38,1,0.4,4,0
+CUST-1599,Diya Patel #600,Home & Kitchen,111,11,600.43,0.12,2,1.6,1,1
+CUST-1600,Sneha Rao #601,Electronics,102,21,2123.57,0.16,1,0.2,1,1
+CUST-1601,Laura Harris #602,Electronics,20,4,428.65,0.43,2,0.1,1,0
+CUST-1602,Michael Brown #603,Electronics,91,7,438.85,0.45,4,1.6,3,1
+CUST-1603,Vikram Singh #604,Home & Kitchen,41,26,1359.4,0.14,3,0.6,4,0
+CUST-1604,Aarav Sharma #605,Electronics,54,12,836.62,0.07,2,0.2,2,0
+CUST-1605,Aarav Sharma #606,Fashion & Apparel,20,31,2587.27,0.2,1,1.2,4,0
+CUST-1606,Laura Harris #607,Home & Kitchen,108,17,820.17,0.86,3,5.4,2,1
+CUST-1607,David Taylor #608,Fashion & Apparel,19,33,2890.81,0.21,0,2.8,4,0
+CUST-1608,Daniel Clark #609,Electronics,84,11,323.3,0.21,0,3.7,4,0
+CUST-1609,John Miller #610,Fashion & Apparel,99,28,817.32,0.53,2,4.5,4,0
+CUST-1610,Daniel Clark #611,Sports & Fitness,111,32,1850.7,0.12,2,7.9,3,1
+CUST-1611,Michael Brown #612,Home & Kitchen,66,1,55.05,0.32,2,3.2,2,1
+CUST-1612,Aarav Sharma #613,Fashion & Apparel,30,28,1451.21,0.45,4,2.1,4,0
+CUST-1613,Diya Patel #614,Electronics,53,7,467.16,0.4,3,1.0,2,0
+CUST-1614,Aditya Nair #615,Sports & Fitness,34,2,104.52,0.73,3,0.4,2,1
+CUST-1615,Rohan Mehta #616,Home & Kitchen,22,24,992.21,0.43,0,2.6,2,0
+CUST-1616,Aarav Sharma #617,Fashion & Apparel,67,4,205.22,0.69,2,11.6,4,1
+CUST-1617,Jessica White #618,Beauty & Care,6,19,2049.47,0.2,2,1.4,4,0
+CUST-1618,Ananya Iyer #619,Fashion & Apparel,79,26,1558.56,0.21,1,2.8,4,0
+CUST-1619,Daniel Clark #620,Fashion & Apparel,27,11,690.81,0.4,1,1.5,3,0
+CUST-1620,Vikram Singh #621,Home & Kitchen,10,11,814.07,0.45,1,1.2,1,0
+CUST-1621,Vikram Singh #622,Electronics,73,3,325.75,0.61,0,1.2,5,0
+CUST-1622,Ananya Iyer #623,Sports & Fitness,97,12,546.43,0.24,2,1.5,3,1
+CUST-1623,Rohan Mehta #624,Home & Kitchen,96,3,248.73,0.28,4,1.0,3,1
+CUST-1624,Vikram Singh #625,Home & Kitchen,48,27,2318.18,0.75,2,3.0,4,0
+CUST-1625,Vikram Singh #626,Electronics,70,2,153.25,0.23,0,4.6,2,0
+CUST-1626,Sneha Rao #627,Electronics,105,16,520.47,0.48,1,4.7,2,1
+CUST-1627,Sneha Rao #628,Fashion & Apparel,59,2,165.07,0.44,3,0.6,3,1
+CUST-1628,James Lewis #629,Beauty & Care,100,30,913.44,0.2,3,5.0,2,1
+CUST-1629,Daniel Clark #630,Fashion & Apparel,59,20,1513.44,0.17,4,0.9,2,0
+CUST-1630,Sarah Wilson #631,Fashion & Apparel,2,38,3338.85,0.16,3,0.8,5,0
+CUST-1631,Aditya Nair #632,Home & Kitchen,29,28,1202.11,0.47,0,2.9,3,0
+CUST-1632,Sarah Wilson #633,Electronics,68,25,2413.45,0.27,3,0.8,3,1
+CUST-1633,Aarav Sharma #634,Home & Kitchen,65,32,882.56,0.27,1,0.1,4,0
+CUST-1634,James Lewis #635,Electronics,83,10,967.24,0.18,3,1.0,5,0
+CUST-1635,Michael Brown #636,Sports & Fitness,26,33,2116.22,0.7,3,2.8,1,1
+CUST-1636,Michael Brown #637,Fashion & Apparel,89,13,565.43,0.54,1,0.9,4,0
+CUST-1637,Pooja Verma #638,Electronics,10,37,1345.73,0.42,1,2.2,4,0
+CUST-1638,Aarav Sharma #639,Fashion & Apparel,53,16,1696.5,0.27,0,2.4,2,0
+CUST-1639,Daniel Clark #640,Fashion & Apparel,79,22,685.88,0.37,0,2.9,2,0
+CUST-1640,Neha Joshi #641,Beauty & Care,59,20,838.46,0.67,1,5.0,3,0
+CUST-1641,Diya Patel #642,Home & Kitchen,22,27,1473.25,0.57,1,1.2,4,0
+CUST-1642,Neha Joshi #643,Home & Kitchen,51,16,1243.52,0.67,1,0.4,2,0
+CUST-1643,Karan Malhotra #644,Electronics,48,34,2424.48,0.39,3,0.8,3,0
+CUST-1644,Diya Patel #645,Electronics,21,32,1141.75,0.35,0,1.2,4,0
+CUST-1645,Rohan Mehta #646,Electronics,22,26,1290.3,0.74,2,2.8,3,0
+CUST-1646,Laura Harris #647,Home & Kitchen,100,25,1132.35,0.3,1,0.0,5,0
+CUST-1647,Emily Davis #648,Beauty & Care,98,2,86.3,0.38,2,0.8,5,0
+CUST-1648,Aarav Sharma #649,Fashion & Apparel,30,12,719.37,0.32,1,3.3,3,0
+CUST-1649,Emily Davis #650,Electronics,25,9,763.58,0.67,1,2.4,5,0
+CUST-1650,Vikram Singh #651,Home & Kitchen,109,12,521.8,0.48,1,2.9,1,1
+CUST-1651,Daniel Clark #652,Beauty & Care,28,26,1460.36,0.4,2,3.7,1,0
+CUST-1652,Jessica White #653,Home & Kitchen,65,9,524.05,0.64,2,3.4,3,0
+CUST-1653,David Taylor #654,Beauty & Care,113,10,1079.99,0.2,2,2.5,4,1
+CUST-1654,David Taylor #655,Fashion & Apparel,45,32,3396.69,0.74,2,1.3,4,0
+CUST-1655,Vikram Singh #656,Electronics,68,34,3162.4,0.8,1,9.0,3,1
+CUST-1656,Sarah Wilson #657,Beauty & Care,7,20,910.82,0.32,1,1.9,2,0
+CUST-1657,Diya Patel #658,Home & Kitchen,49,39,1200.54,0.45,2,0.5,2,0
+CUST-1658,John Miller #659,Fashion & Apparel,9,2,103.87,0.17,2,0.8,5,0
+CUST-1659,James Lewis #660,Home & Kitchen,36,1,47.68,0.69,3,2.6,5,0
+CUST-1660,Karan Malhotra #661,Beauty & Care,83,36,2448.13,0.74,2,5.7,4,0
+CUST-1661,Ananya Iyer #662,Home & Kitchen,1,24,2186.56,0.33,1,0.4,4,0
+CUST-1662,Diya Patel #663,Home & Kitchen,10,27,2644.85,0.58,2,0.2,4,0
+CUST-1663,Ananya Iyer #664,Fashion & Apparel,36,2,193.63,0.41,2,4.7,2,1
+CUST-1664,Laura Harris #665,Fashion & Apparel,73,31,1722.75,0.21,2,5.4,3,0
+CUST-1665,Diya Patel #666,Fashion & Apparel,109,14,1167.81,0.4,2,0.7,4,0
+CUST-1666,Laura Harris #667,Beauty & Care,46,2,103.18,0.4,2,1.0,3,0
+CUST-1667,David Taylor #668,Beauty & Care,106,29,875.13,0.7,1,2.4,1,1
+CUST-1668,James Lewis #669,Beauty & Care,32,15,1269.5,0.79,0,0.9,5,0
+CUST-1669,Diya Patel #670,Electronics,32,12,310.02,0.64,1,4.6,4,0
+CUST-1670,Rachel Martin #671,Home & Kitchen,6,37,2211.88,0.13,5,0.3,2,0
+CUST-1671,Ananya Iyer #672,Beauty & Care,48,28,1483.92,0.17,4,0.1,4,0
+CUST-1672,Aarav Sharma #673,Home & Kitchen,38,20,1678.74,0.22,3,0.5,5,0
+CUST-1673,David Taylor #674,Beauty & Care,17,39,3515.1,0.5,2,0.7,1,0
+CUST-1674,Sneha Rao #675,Beauty & Care,74,24,1220.35,0.4,1,0.3,3,0
+CUST-1675,James Lewis #676,Fashion & Apparel,114,21,1973.75,0.19,1,0.1,3,0
+CUST-1676,Daniel Clark #677,Fashion & Apparel,27,10,499.83,0.03,2,3.1,3,0
+CUST-1677,Vikram Singh #678,Electronics,54,14,881.13,0.71,1,0.4,4,0
+CUST-1678,Pooja Verma #679,Fashion & Apparel,50,37,3211.47,0.49,0,5.4,3,0
+CUST-1679,Sneha Rao #680,Home & Kitchen,35,18,1510.17,0.63,1,1.0,1,0
+CUST-1680,Daniel Clark #681,Beauty & Care,116,24,2614.23,0.29,1,2.4,1,1
+CUST-1681,Sneha Rao #682,Electronics,85,14,617.94,0.55,0,0.6,1,1
+CUST-1682,Daniel Clark #683,Electronics,25,34,2764.1,0.12,3,0.6,3,0
+CUST-1683,Rachel Martin #684,Home & Kitchen,28,12,921.88,0.17,1,1.9,4,0
+CUST-1684,Vikram Singh #685,Electronics,111,22,2261.23,0.49,1,1.8,2,1
+CUST-1685,Diya Patel #686,Electronics,15,6,229.74,0.76,0,3.2,4,0
+CUST-1686,Ananya Iyer #687,Electronics,4,36,3200.5,0.62,1,3.1,4,0
+CUST-1687,Diya Patel #688,Electronics,93,36,2638.9,0.28,1,2.4,2,1
+CUST-1688,Michael Brown #689,Electronics,73,22,1063.63,0.46,2,1.3,4,0
+CUST-1689,John Miller #690,Fashion & Apparel,27,14,914.58,0.25,1,4.9,4,0
+CUST-1690,John Miller #691,Fashion & Apparel,26,16,853.94,0.77,1,2.1,3,0
+CUST-1691,Jessica White #692,Beauty & Care,19,36,2672.7,0.81,1,10.2,3,1
+CUST-1692,John Miller #693,Fashion & Apparel,92,25,2514.13,0.65,1,3.8,4,0
+CUST-1693,James Lewis #694,Home & Kitchen,17,32,2348.51,0.5,2,0.1,5,0
+CUST-1694,David Taylor #695,Electronics,43,33,2596.98,0.26,3,0.9,3,0
+CUST-1695,Jessica White #696,Electronics,41,36,2487.37,0.23,1,1.9,3,0
+CUST-1696,John Miller #697,Home & Kitchen,42,20,586.98,0.62,3,2.8,3,0
+CUST-1697,Jessica White #698,Electronics,50,18,806.27,0.35,0,1.8,1,0
+CUST-1698,Neha Joshi #699,Fashion & Apparel,84,38,2539.17,0.23,3,3.4,4,0
+CUST-1699,Pooja Verma #700,Home & Kitchen,109,3,154.11,0.47,3,0.7,3,1
+CUST-1700,Neha Joshi #701,Home & Kitchen,40,23,930.35,0.57,1,0.4,2,0
+CUST-1701,Pooja Verma #702,Electronics,39,32,2171.24,0.28,4,0.1,3,0
+CUST-1702,Rohan Mehta #703,Fashion & Apparel,113,16,839.02,0.8,0,1.9,1,1
+CUST-1703,Rohan Mehta #704,Home & Kitchen,117,5,234.7,0.13,0,2.6,3,0
+CUST-1704,Laura Harris #705,Electronics,23,4,257.76,0.08,3,0.9,1,0
+CUST-1705,James Lewis #706,Home & Kitchen,111,21,762.91,0.46,3,2.1,1,1
+CUST-1706,James Lewis #707,Home & Kitchen,96,14,1454.02,0.43,2,0.1,4,0
+CUST-1707,Vikram Singh #708,Sports & Fitness,52,39,3851.43,0.67,1,0.2,5,0
+CUST-1708,Laura Harris #709,Electronics,47,31,2639.58,0.5,4,2.7,2,0
+CUST-1709,Sneha Rao #710,Beauty & Care,63,14,476.39,0.81,1,1.0,3,0
+CUST-1710,Ananya Iyer #711,Fashion & Apparel,97,6,545.7,0.2,2,2.4,2,1
+CUST-1711,Aarav Sharma #712,Fashion & Apparel,110,12,1124.12,0.44,0,3.9,3,1
+CUST-1712,Vikram Singh #713,Electronics,69,16,1444.16,0.38,1,4.2,3,0
+CUST-1713,Aditya Nair #714,Home & Kitchen,43,17,589.68,0.23,4,0.4,2,0
+CUST-1714,Emily Davis #715,Electronics,48,23,1833.84,0.23,4,1.5,4,0
+CUST-1715,Sarah Wilson #716,Fashion & Apparel,34,14,1342.85,0.18,2,2.9,2,0
+CUST-1716,Diya Patel #717,Electronics,40,7,518.53,0.25,1,3.3,1,1
+CUST-1717,Daniel Clark #718,Beauty & Care,75,32,2558.23,0.22,1,3.4,4,0
+CUST-1718,Sarah Wilson #719,Beauty & Care,61,15,959.41,0.42,0,0.6,4,0
+CUST-1719,Michael Brown #720,Home & Kitchen,50,17,1188.98,0.39,3,0.5,3,0
+CUST-1720,Aditya Nair #721,Fashion & Apparel,67,34,949.35,0.35,2,2.0,3,0
+CUST-1721,David Taylor #722,Electronics,62,5,396.56,0.57,5,3.0,3,1
+CUST-1722,David Taylor #723,Home & Kitchen,58,27,861.92,0.14,6,0.8,3,0
+CUST-1723,John Miller #724,Fashion & Apparel,33,23,1425.45,0.23,3,0.2,3,0
+CUST-1724,Jessica White #725,Electronics,75,14,698.26,0.1,2,2.8,3,0
+CUST-1725,Daniel Clark #726,Home & Kitchen,16,15,1070.42,0.43,3,0.8,3,0
+CUST-1726,Pooja Verma #727,Sports & Fitness,82,33,1199.23,0.06,1,0.4,4,0
+CUST-1727,Aarav Sharma #728,Home & Kitchen,94,31,2597.48,0.47,1,0.4,4,0
+CUST-1728,Neha Joshi #729,Home & Kitchen,48,35,3240.16,0.4,3,0.8,3,0
+CUST-1729,Daniel Clark #730,Sports & Fitness,119,17,661.05,0.68,2,2.0,3,1
+CUST-1730,Rohan Mehta #731,Electronics,10,28,948.27,0.67,0,1.0,3,0
+CUST-1731,Rachel Martin #732,Home & Kitchen,82,19,710.01,0.35,1,0.0,3,0
+CUST-1732,David Taylor #733,Sports & Fitness,38,23,2289.78,0.67,0,0.2,3,0
+CUST-1733,David Taylor #734,Electronics,19,32,2236.67,0.11,2,0.8,5,0
+CUST-1734,Sarah Wilson #735,Home & Kitchen,36,13,841.32,0.47,2,2.4,4,0
+CUST-1735,Sarah Wilson #736,Home & Kitchen,59,20,681.41,0.78,2,0.2,5,0
+CUST-1736,Diya Patel #737,Home & Kitchen,63,35,2807.43,0.27,1,1.8,4,0
+CUST-1737,Michael Brown #738,Home & Kitchen,77,5,493.9,0.47,2,0.3,5,0
+CUST-1738,Sarah Wilson #739,Sports & Fitness,46,9,858.56,0.39,5,0.5,4,0
+CUST-1739,James Lewis #740,Beauty & Care,3,29,2268.22,0.36,1,0.4,5,0
+CUST-1740,Karan Malhotra #741,Electronics,74,6,188.39,0.59,0,0.2,2,1
+CUST-1741,Rohan Mehta #742,Beauty & Care,102,25,863.84,0.87,2,2.4,1,1
+CUST-1742,David Taylor #743,Electronics,65,31,904.93,0.31,0,1.4,4,0
+CUST-1743,Sarah Wilson #744,Fashion & Apparel,119,22,1031.49,0.75,3,3.9,5,1
+CUST-1744,John Miller #745,Fashion & Apparel,91,2,73.06,0.27,1,0.2,3,0
+CUST-1745,David Taylor #746,Fashion & Apparel,110,5,235.52,0.62,0,0.3,2,1
+CUST-1746,Michael Brown #747,Fashion & Apparel,8,27,1558.71,0.55,3,0.8,3,0
+CUST-1747,Laura Harris #748,Sports & Fitness,51,25,2628.84,0.31,4,3.2,4,0
+CUST-1748,Ananya Iyer #749,Home & Kitchen,110,8,615.06,0.44,1,0.8,3,1
+CUST-1749,Rohan Mehta #750,Home & Kitchen,106,1,95.97,0.72,0,1.2,4,1
+CUST-1750,James Lewis #751,Electronics,81,20,1707.6,0.57,0,0.8,5,0
+CUST-1751,David Taylor #752,Sports & Fitness,73,23,794.94,0.6,1,0.2,5,0
+CUST-1752,Vikram Singh #753,Sports & Fitness,6,32,2801.7,0.4,2,6.2,2,0
+CUST-1753,Sneha Rao #754,Beauty & Care,107,11,532.22,0.33,1,1.7,3,0
+CUST-1754,Karan Malhotra #755,Electronics,89,39,3093.64,0.59,3,3.4,3,1
+CUST-1755,Daniel Clark #756,Electronics,39,24,1295.56,0.66,4,2.4,3,0
+CUST-1756,Karan Malhotra #757,Electronics,113,11,1207.82,0.06,2,1.6,1,1
+CUST-1757,Emily Davis #758,Electronics,60,29,1374.65,0.3,3,0.2,4,0
+CUST-1758,Daniel Clark #759,Fashion & Apparel,28,26,1266.88,0.65,1,2.3,3,0
+CUST-1759,Michael Brown #760,Sports & Fitness,97,16,1665.71,0.32,1,0.4,5,0
+CUST-1760,Rachel Martin #761,Fashion & Apparel,54,35,948.32,0.5,4,1.2,5,0
+CUST-1761,Pooja Verma #762,Electronics,37,20,1684.37,0.36,2,2.2,1,1
+CUST-1762,Sneha Rao #763,Fashion & Apparel,9,3,259.96,0.39,2,3.4,5,0
+CUST-1763,Rohan Mehta #764,Electronics,82,1,96.09,0.19,2,2.5,4,0
+CUST-1764,Aditya Nair #765,Electronics,56,1,107.83,0.32,2,2.4,3,0
+CUST-1765,Michael Brown #766,Fashion & Apparel,59,17,1834.74,0.8,1,0.4,3,0
+CUST-1766,Laura Harris #767,Fashion & Apparel,85,2,61.1,0.63,3,0.9,3,1
+CUST-1767,David Taylor #768,Beauty & Care,2,29,2750.83,0.6,2,0.1,3,0
+CUST-1768,Pooja Verma #769,Sports & Fitness,61,20,1598.73,0.67,2,2.8,4,0
+CUST-1769,David Taylor #770,Fashion & Apparel,58,6,480.14,0.23,2,6.7,1,1
+CUST-1770,Diya Patel #771,Fashion & Apparel,107,8,287.28,0.84,4,0.7,4,1
+CUST-1771,David Taylor #772,Beauty & Care,60,29,2327.71,0.53,2,0.2,2,0
+CUST-1772,Neha Joshi #773,Fashion & Apparel,102,33,3580.86,0.05,4,1.4,1,1
+CUST-1773,Neha Joshi #774,Electronics,40,3,307.51,0.51,1,4.3,4,0
+CUST-1774,Daniel Clark #775,Beauty & Care,36,35,2181.41,0.41,1,1.8,4,0
+CUST-1775,Emily Davis #776,Electronics,114,5,141.98,0.69,1,0.1,3,1
+CUST-1776,James Lewis #777,Home & Kitchen,107,27,1506.46,0.73,2,8.1,1,1
+CUST-1777,Sneha Rao #778,Home & Kitchen,37,12,1142.92,0.45,1,3.9,5,0
+CUST-1778,Aditya Nair #779,Fashion & Apparel,79,20,1692.55,0.31,1,0.3,4,0
+CUST-1779,Vikram Singh #780,Fashion & Apparel,92,20,1280.88,0.13,2,5.6,1,1
+CUST-1780,Ananya Iyer #781,Beauty & Care,18,9,267.15,0.41,2,1.3,3,0
+CUST-1781,Rachel Martin #782,Electronics,98,39,2390.16,0.65,2,1.0,3,0
+CUST-1782,Diya Patel #783,Electronics,63,4,259.47,0.2,2,1.4,1,1
+CUST-1783,Michael Brown #784,Home & Kitchen,22,19,1974.62,0.48,2,4.0,4,0
+CUST-1784,Ananya Iyer #785,Fashion & Apparel,11,38,3020.71,0.89,6,2.4,4,0
+CUST-1785,Vikram Singh #786,Electronics,58,27,1390.24,0.22,2,0.1,4,0
+CUST-1786,Aarav Sharma #787,Beauty & Care,57,13,905.48,0.74,1,7.0,2,1
+CUST-1787,Ananya Iyer #788,Fashion & Apparel,77,13,397.99,0.33,3,0.4,5,0
+CUST-1788,Ananya Iyer #789,Beauty & Care,4,22,2368.7,0.39,1,3.0,3,0
+CUST-1789,Jessica White #790,Beauty & Care,86,28,1556.94,0.54,5,2.2,5,0
+CUST-1790,Pooja Verma #791,Home & Kitchen,7,22,1443.61,0.17,2,0.5,1,0
+CUST-1791,John Miller #792,Fashion & Apparel,61,19,1048.78,0.47,1,0.4,3,0
+CUST-1792,Aditya Nair #793,Sports & Fitness,107,8,664.11,0.19,1,4.5,4,1
+CUST-1793,Rohan Mehta #794,Electronics,54,8,650.32,0.17,2,1.2,2,0
+CUST-1794,James Lewis #795,Home & Kitchen,88,26,2230.86,0.74,0,2.3,4,0
+CUST-1795,Neha Joshi #796,Electronics,68,26,1242.6,0.31,5,1.5,4,0
+CUST-1796,Vikram Singh #797,Fashion & Apparel,92,23,1192.13,0.49,3,2.9,1,1
+CUST-1797,Pooja Verma #798,Fashion & Apparel,79,13,463.4,0.87,1,1.4,4,0
+CUST-1798,Ananya Iyer #799,Sports & Fitness,1,28,2260.11,0.53,4,0.7,3,0
+CUST-1799,Diya Patel #800,Sports & Fitness,55,9,255.44,0.63,0,1.0,2,0
+CUST-1800,Rachel Martin #801,Electronics,3,20,1516.06,0.43,2,4.3,5,0
+CUST-1801,John Miller #802,Electronics,78,19,1879.56,0.65,0,1.4,5,0
+CUST-1802,Pooja Verma #803,Home & Kitchen,38,39,3928.11,0.17,3,0.5,2,0
+CUST-1803,David Taylor #804,Fashion & Apparel,114,12,758.02,0.46,0,6.0,3,1
+CUST-1804,Ananya Iyer #805,Electronics,1,15,960.61,0.47,3,3.5,3,0
+CUST-1805,Daniel Clark #806,Home & Kitchen,102,31,977.81,0.3,0,0.1,4,0
+CUST-1806,Ananya Iyer #807,Fashion & Apparel,38,14,1148.21,0.47,2,15.1,5,0
+CUST-1807,James Lewis #808,Sports & Fitness,85,11,1042.88,0.44,2,2.6,3,1
+CUST-1808,Diya Patel #809,Electronics,112,26,1190.69,0.39,3,0.4,4,0
+CUST-1809,David Taylor #810,Fashion & Apparel,29,27,1641.89,0.11,1,0.6,3,0
+CUST-1810,John Miller #811,Fashion & Apparel,5,11,1059.31,0.55,4,2.6,3,0
+CUST-1811,Neha Joshi #812,Beauty & Care,113,38,3783.1,0.32,0,3.3,5,0
+CUST-1812,James Lewis #813,Fashion & Apparel,74,34,1552.79,0.3,2,0.6,3,0
+CUST-1813,Michael Brown #814,Home & Kitchen,92,19,1364.17,0.3,0,0.7,3,0
+CUST-1814,Emily Davis #815,Electronics,21,6,248.17,0.57,0,0.8,4,0
+CUST-1815,Vikram Singh #816,Beauty & Care,114,38,1279.07,0.71,6,2.0,2,1
+CUST-1816,Ananya Iyer #817,Fashion & Apparel,71,28,2868.47,0.26,2,0.4,3,0
+CUST-1817,Pooja Verma #818,Electronics,67,1,94.74,0.53,1,0.2,5,0
+CUST-1818,James Lewis #819,Home & Kitchen,109,35,3136.1,0.22,2,2.5,4,0
+CUST-1819,Rachel Martin #820,Electronics,47,8,233.16,0.35,4,3.3,4,0
+CUST-1820,Aarav Sharma #821,Electronics,84,7,677.02,0.1,1,1.5,2,0
+CUST-1821,Rachel Martin #822,Beauty & Care,83,11,684.57,0.08,5,1.0,3,1
+CUST-1822,Daniel Clark #823,Fashion & Apparel,35,39,2110.04,0.51,1,1.2,5,0
+CUST-1823,Emily Davis #824,Home & Kitchen,68,4,285.8,0.29,0,1.1,3,0
+CUST-1824,David Taylor #825,Fashion & Apparel,69,25,819.13,0.38,1,7.1,2,0
+CUST-1825,Aarav Sharma #826,Beauty & Care,1,12,1071.78,0.51,1,3.2,3,0
+CUST-1826,Sarah Wilson #827,Electronics,68,26,1937.18,0.36,0,0.5,3,0
+CUST-1827,Ananya Iyer #828,Fashion & Apparel,12,38,1552.69,0.33,4,1.1,2,0
+CUST-1828,Vikram Singh #829,Sports & Fitness,60,12,492.0,0.52,1,1.7,5,0
+CUST-1829,John Miller #830,Beauty & Care,27,37,1504.46,0.1,2,2.1,5,0
+CUST-1830,Pooja Verma #831,Fashion & Apparel,56,24,716.28,0.57,3,1.4,4,0
+CUST-1831,Michael Brown #832,Fashion & Apparel,106,16,1199.41,0.29,1,3.7,4,0
+CUST-1832,John Miller #833,Beauty & Care,23,13,1253.58,0.38,4,3.2,5,0
+CUST-1833,Rohan Mehta #834,Fashion & Apparel,25,25,662.18,0.59,2,1.5,4,0
+CUST-1834,Aarav Sharma #835,Beauty & Care,21,4,116.66,0.28,2,4.2,1,1
+CUST-1835,Ananya Iyer #836,Beauty & Care,61,11,810.54,0.48,3,3.1,2,1
+CUST-1836,Laura Harris #837,Electronics,63,32,3029.03,0.35,4,3.3,1,1
+CUST-1837,Sneha Rao #838,Electronics,52,7,369.41,0.05,3,6.9,1,1
+CUST-1838,Vikram Singh #839,Home & Kitchen,88,11,601.89,0.07,3,0.7,3,0
+CUST-1839,Sneha Rao #840,Electronics,25,28,2119.3,0.62,1,0.7,3,0
+CUST-1840,Emily Davis #841,Fashion & Apparel,109,23,1111.09,0.16,1,4.8,2,0
+CUST-1841,Diya Patel #842,Sports & Fitness,55,23,627.02,0.33,3,3.3,1,1
+CUST-1842,Michael Brown #843,Home & Kitchen,46,28,2449.84,0.24,2,5.7,3,0
+CUST-1843,Neha Joshi #844,Beauty & Care,32,26,2032.69,0.57,3,0.1,2,0
+CUST-1844,Diya Patel #845,Home & Kitchen,55,25,1859.11,0.58,0,2.2,4,0
+CUST-1845,Rachel Martin #846,Home & Kitchen,96,29,2553.25,0.17,0,0.3,1,1
+CUST-1846,Aarav Sharma #847,Electronics,5,19,1565.5,0.24,2,1.5,4,0
+CUST-1847,Vikram Singh #848,Fashion & Apparel,36,33,1402.5,0.29,2,0.4,5,0
+CUST-1848,Aditya Nair #849,Fashion & Apparel,110,36,1978.59,0.35,2,0.3,4,0
+CUST-1849,Daniel Clark #850,Fashion & Apparel,106,14,500.07,0.03,1,0.0,4,0
+CUST-1850,Aditya Nair #851,Beauty & Care,49,14,504.53,0.44,2,2.2,5,0
+CUST-1851,John Miller #852,Fashion & Apparel,106,35,2886.68,0.05,2,1.0,2,1
+CUST-1852,David Taylor #853,Fashion & Apparel,58,30,2939.43,0.25,1,0.2,5,0
+CUST-1853,Ananya Iyer #854,Fashion & Apparel,39,28,2991.3,0.31,2,0.9,4,0
+CUST-1854,Rohan Mehta #855,Electronics,80,17,1332.96,0.09,4,0.4,4,0
+CUST-1855,Daniel Clark #856,Fashion & Apparel,97,3,121.95,0.23,3,6.3,3,1
+CUST-1856,Vikram Singh #857,Electronics,113,16,543.68,0.25,0,0.8,3,0
+CUST-1857,Emily Davis #858,Electronics,85,30,2822.77,0.59,4,0.9,4,0
+CUST-1858,Laura Harris #859,Electronics,61,29,2151.63,0.69,2,4.0,4,0
+CUST-1859,Sarah Wilson #860,Fashion & Apparel,9,15,1163.31,0.08,2,2.3,4,0
+CUST-1860,John Miller #861,Beauty & Care,6,25,2285.61,0.67,1,2.7,1,0
+CUST-1861,Aditya Nair #862,Fashion & Apparel,115,38,3221.59,0.14,4,2.2,3,1
+CUST-1862,Diya Patel #863,Fashion & Apparel,109,38,3645.3,0.21,0,6.4,3,1
+CUST-1863,Emily Davis #864,Home & Kitchen,35,23,684.9,0.19,1,0.5,2,0
+CUST-1864,Rohan Mehta #865,Electronics,39,25,2213.48,0.74,1,9.9,2,1
+CUST-1865,Rohan Mehta #866,Beauty & Care,22,7,681.26,0.39,1,3.9,2,0
+CUST-1866,Aarav Sharma #867,Fashion & Apparel,41,22,1085.07,0.35,2,2.0,3,0
+CUST-1867,Neha Joshi #868,Fashion & Apparel,118,17,1350.45,0.42,1,2.4,3,1
+CUST-1868,Neha Joshi #869,Home & Kitchen,5,18,930.67,0.26,1,2.3,1,0
+CUST-1869,John Miller #870,Electronics,42,10,1064.28,0.26,1,0.1,5,0
+CUST-1870,Aditya Nair #871,Home & Kitchen,87,10,278.41,0.1,3,0.5,4,0
+CUST-1871,Vikram Singh #872,Fashion & Apparel,81,7,519.98,0.65,0,7.2,4,0
+CUST-1872,Sarah Wilson #873,Beauty & Care,76,38,1487.81,0.78,1,1.7,2,1
+CUST-1873,Rohan Mehta #874,Electronics,87,27,2309.55,0.35,1,1.0,4,0
+CUST-1874,Vikram Singh #875,Fashion & Apparel,80,33,1318.37,0.5,2,3.2,3,0
+CUST-1875,Vikram Singh #876,Home & Kitchen,67,1,45.01,0.8,1,1.6,5,0
+CUST-1876,James Lewis #877,Electronics,30,34,2278.73,0.2,3,0.0,4,0
+CUST-1877,Sarah Wilson #878,Fashion & Apparel,57,4,411.04,0.27,1,2.9,4,0
+CUST-1878,Pooja Verma #879,Home & Kitchen,86,17,730.93,0.64,2,2.9,5,0
+CUST-1879,Michael Brown #880,Beauty & Care,73,4,149.04,0.06,4,0.4,2,1
+CUST-1880,Sneha Rao #881,Fashion & Apparel,29,26,2327.34,0.4,2,6.9,1,0
+CUST-1881,Laura Harris #882,Beauty & Care,111,4,270.21,0.6,0,0.6,4,0
+CUST-1882,Neha Joshi #883,Sports & Fitness,37,1,102.5,0.13,0,1.3,1,0
+CUST-1883,Neha Joshi #884,Beauty & Care,87,7,262.24,0.36,2,0.3,1,1
+CUST-1884,Karan Malhotra #885,Electronics,13,30,2397.12,0.62,4,2.0,4,0
+CUST-1885,Neha Joshi #886,Home & Kitchen,32,9,403.15,0.21,0,1.0,2,0
+CUST-1886,Sarah Wilson #887,Fashion & Apparel,46,35,1341.36,0.16,0,1.0,4,0
+CUST-1887,James Lewis #888,Sports & Fitness,116,8,664.73,0.4,0,3.9,5,0
+CUST-1888,Ananya Iyer #889,Fashion & Apparel,111,24,1811.12,0.53,1,0.0,3,0
+CUST-1889,Aarav Sharma #890,Electronics,112,19,1694.05,0.46,0,3.5,2,1
+CUST-1890,David Taylor #891,Home & Kitchen,23,36,1846.96,0.48,0,1.9,1,0
+CUST-1891,Aarav Sharma #892,Fashion & Apparel,45,27,1703.09,0.84,1,9.4,2,1
+CUST-1892,Daniel Clark #893,Sports & Fitness,17,32,1902.88,0.2,2,2.0,1,0
+CUST-1893,Aarav Sharma #894,Sports & Fitness,119,14,1521.07,0.31,1,0.1,1,1
+CUST-1894,David Taylor #895,Home & Kitchen,104,18,897.14,0.55,3,0.1,3,1
+CUST-1895,Diya Patel #896,Electronics,85,28,1401.67,0.32,2,4.7,3,0
+CUST-1896,Sarah Wilson #897,Home & Kitchen,66,29,1598.96,0.59,1,4.0,4,0
+CUST-1897,Neha Joshi #898,Electronics,101,16,1167.85,0.85,2,0.9,5,0
+CUST-1898,Neha Joshi #899,Electronics,6,35,1625.66,0.25,2,2.1,4,0
+CUST-1899,James Lewis #900,Beauty & Care,108,31,3186.79,0.5,1,1.5,3,1
+CUST-1900,Karan Malhotra #901,Electronics,18,4,190.33,0.47,3,7.5,1,1
+CUST-1901,James Lewis #902,Fashion & Apparel,94,37,3742.34,0.26,1,6.6,4,0
+CUST-1902,Ananya Iyer #903,Sports & Fitness,22,17,574.52,0.17,1,9.1,3,0
+CUST-1903,Ananya Iyer #904,Fashion & Apparel,118,39,3151.51,0.49,1,4.4,1,1
+CUST-1904,Rohan Mehta #905,Fashion & Apparel,33,26,2654.44,0.44,0,5.3,4,0
+CUST-1905,Karan Malhotra #906,Sports & Fitness,30,39,1534.4,0.47,1,0.5,3,0
+CUST-1906,James Lewis #907,Electronics,81,4,429.23,0.37,2,3.9,2,1
+CUST-1907,Neha Joshi #908,Beauty & Care,107,30,1904.85,0.12,0,2.7,5,0
+CUST-1908,Sneha Rao #909,Sports & Fitness,32,30,3161.57,0.75,0,7.2,5,0
+CUST-1909,Rachel Martin #910,Sports & Fitness,42,22,1815.65,0.23,3,1.9,3,0
+CUST-1910,David Taylor #911,Home & Kitchen,115,11,556.98,0.32,0,0.2,3,0
+CUST-1911,David Taylor #912,Fashion & Apparel,78,2,82.01,0.9,2,2.0,4,0
+CUST-1912,Aarav Sharma #913,Fashion & Apparel,10,12,609.81,0.12,3,2.6,4,0
+CUST-1913,Rachel Martin #914,Beauty & Care,111,30,987.19,0.26,1,0.5,1,1
+CUST-1914,Karan Malhotra #915,Beauty & Care,115,36,1340.24,0.12,3,1.1,4,0
+CUST-1915,Pooja Verma #916,Fashion & Apparel,36,18,610.13,0.43,1,2.0,5,0
+CUST-1916,Ananya Iyer #917,Electronics,34,26,1584.71,0.4,1,1.0,2,0
+CUST-1917,Aarav Sharma #918,Electronics,73,7,648.37,0.08,0,1.0,5,0
+CUST-1918,Vikram Singh #919,Electronics,106,1,37.02,0.54,2,0.3,5,1
+CUST-1919,Aarav Sharma #920,Home & Kitchen,28,26,938.01,0.41,0,6.2,2,0
+CUST-1920,Pooja Verma #921,Fashion & Apparel,11,23,1832.9,0.26,6,3.1,4,0
+CUST-1921,Diya Patel #922,Sports & Fitness,78,26,1085.77,0.49,2,0.0,2,0
+CUST-1922,Sneha Rao #923,Home & Kitchen,39,6,199.78,0.39,0,3.2,4,0
+CUST-1923,Vikram Singh #924,Electronics,119,6,235.09,0.4,3,3.0,4,1
+CUST-1924,Sneha Rao #925,Home & Kitchen,47,8,828.14,0.73,1,0.0,2,0
+CUST-1925,Aarav Sharma #926,Fashion & Apparel,118,24,2275.8,0.62,1,1.0,4,0
+CUST-1926,Ananya Iyer #927,Home & Kitchen,19,22,1212.1,0.6,2,2.1,4,0
+CUST-1927,Michael Brown #928,Home & Kitchen,118,19,1534.15,0.84,2,1.3,3,1
+CUST-1928,David Taylor #929,Beauty & Care,15,37,2614.73,0.39,1,3.3,2,0
+CUST-1929,Pooja Verma #930,Beauty & Care,28,18,1486.0,0.47,2,1.2,1,0
+CUST-1930,Michael Brown #931,Fashion & Apparel,24,31,2573.84,0.58,1,0.4,4,0
+CUST-1931,Rachel Martin #932,Electronics,72,37,2902.37,0.35,4,8.2,5,0
+CUST-1932,David Taylor #933,Home & Kitchen,107,30,1428.56,0.46,0,0.6,4,0
+CUST-1933,Neha Joshi #934,Electronics,9,33,934.41,0.12,2,2.8,3,0
+CUST-1934,Vikram Singh #935,Fashion & Apparel,47,10,637.23,0.19,1,0.3,3,0
+CUST-1935,David Taylor #936,Electronics,33,37,3727.11,0.8,0,0.9,2,0
+CUST-1936,Pooja Verma #937,Home & Kitchen,62,12,880.89,0.1,0,1.3,2,0
+CUST-1937,Emily Davis #938,Electronics,97,30,2872.6,0.54,1,0.5,3,1
+CUST-1938,Michael Brown #939,Home & Kitchen,19,27,2950.78,0.48,1,1.3,3,0
+CUST-1939,Diya Patel #940,Sports & Fitness,67,39,1517.39,0.28,1,0.4,3,0
+CUST-1940,James Lewis #941,Electronics,74,9,754.21,0.02,1,1.8,5,0
+CUST-1941,James Lewis #942,Electronics,40,21,1728.61,0.86,3,2.4,4,0
+CUST-1942,Pooja Verma #943,Fashion & Apparel,47,12,1299.55,0.69,3,0.1,4,0
+CUST-1943,Pooja Verma #944,Beauty & Care,106,29,3154.51,0.35,3,4.5,2,1
+CUST-1944,John Miller #945,Electronics,65,33,2751.13,0.42,0,0.5,5,0
+CUST-1945,Vikram Singh #946,Fashion & Apparel,29,15,685.61,0.68,1,0.6,4,0
+CUST-1946,Rachel Martin #947,Electronics,50,2,185.75,0.15,1,2.4,5,0
+CUST-1947,John Miller #948,Beauty & Care,98,39,1329.8,0.68,1,1.4,3,0
+CUST-1948,Sneha Rao #949,Fashion & Apparel,115,18,1644.47,0.45,1,1.5,3,1
+CUST-1949,Neha Joshi #950,Beauty & Care,13,3,307.1,0.68,1,0.3,3,0
+CUST-1950,Ananya Iyer #951,Sports & Fitness,118,7,402.79,0.18,3,3.6,2,1
+CUST-1951,Ananya Iyer #952,Electronics,1,18,1414.87,0.49,2,2.1,4,0
+CUST-1952,Neha Joshi #953,Beauty & Care,34,38,2339.36,0.58,5,0.3,5,0
+CUST-1953,David Taylor #954,Electronics,93,37,2301.77,0.7,1,1.0,2,1
+CUST-1954,Sarah Wilson #955,Beauty & Care,48,33,1695.59,0.35,1,3.7,1,0
+CUST-1955,John Miller #956,Home & Kitchen,111,31,2783.21,0.17,2,1.8,4,0
+CUST-1956,Emily Davis #957,Beauty & Care,77,11,1150.33,0.38,0,0.3,2,0
+CUST-1957,Michael Brown #958,Electronics,48,4,419.86,0.61,2,1.0,4,0
+CUST-1958,Neha Joshi #959,Electronics,49,18,717.42,0.36,1,0.6,4,0
+CUST-1959,Laura Harris #960,Fashion & Apparel,117,4,397.41,0.64,1,1.6,3,1
+CUST-1960,Aarav Sharma #961,Fashion & Apparel,64,34,2981.18,0.41,2,4.1,4,0
+CUST-1961,David Taylor #962,Electronics,61,29,1348.24,0.83,1,1.3,3,1
+CUST-1962,Neha Joshi #963,Fashion & Apparel,29,24,737.26,0.49,0,1.2,5,0
+CUST-1963,John Miller #964,Electronics,39,22,1051.15,0.3,1,5.2,4,0
+CUST-1964,Emily Davis #965,Fashion & Apparel,88,2,205.08,0.3,1,1.9,5,0
+CUST-1965,Emily Davis #966,Beauty & Care,26,6,472.92,0.07,3,1.8,1,0
+CUST-1966,Pooja Verma #967,Fashion & Apparel,17,25,2157.24,0.55,1,0.7,2,0
+CUST-1967,Jessica White #968,Electronics,71,21,984.02,0.38,0,2.1,1,0
+CUST-1968,Pooja Verma #969,Fashion & Apparel,13,16,1378.37,0.25,3,1.9,3,0
+CUST-1969,Vikram Singh #970,Electronics,69,31,849.1,0.29,0,1.1,5,0
+CUST-1970,Vikram Singh #971,Sports & Fitness,26,14,796.63,0.22,3,10.3,3,0
+CUST-1971,Neha Joshi #972,Electronics,49,39,3052.69,0.29,2,4.7,4,0
+CUST-1972,Sneha Rao #973,Home & Kitchen,67,28,1047.71,0.14,2,3.0,3,0
+CUST-1973,Daniel Clark #974,Sports & Fitness,7,32,3038.57,0.5,1,1.7,3,0
+CUST-1974,Aditya Nair #975,Beauty & Care,58,28,1259.37,0.68,4,1.4,5,0
+CUST-1975,James Lewis #976,Home & Kitchen,49,9,724.0,0.44,1,0.4,3,0
+CUST-1976,Sarah Wilson #977,Beauty & Care,103,22,1307.72,0.51,0,0.8,4,0
+CUST-1977,Neha Joshi #978,Sports & Fitness,53,32,2421.24,0.4,5,3.3,2,1
+CUST-1978,Aditya Nair #979,Home & Kitchen,65,5,170.67,0.09,3,1.3,5,0
+CUST-1979,John Miller #980,Home & Kitchen,113,23,608.06,0.37,3,4.7,4,1
+CUST-1980,Aarav Sharma #981,Home & Kitchen,62,5,511.56,0.33,1,0.4,4,0
+CUST-1981,Sarah Wilson #982,Fashion & Apparel,17,32,1533.39,0.57,4,1.6,1,0
+CUST-1982,Vikram Singh #983,Home & Kitchen,43,10,946.73,0.35,0,2.3,3,0
+CUST-1983,Sarah Wilson #984,Fashion & Apparel,25,39,4287.85,0.5,1,1.6,5,0
+CUST-1984,Pooja Verma #985,Electronics,3,15,644.57,0.45,2,4.8,5,0
+CUST-1985,Aarav Sharma #986,Electronics,79,7,332.78,0.31,0,10.0,1,1
+CUST-1986,James Lewis #987,Electronics,29,29,2358.95,0.48,2,0.3,3,0
+CUST-1987,Neha Joshi #988,Fashion & Apparel,117,3,321.19,0.73,1,0.3,3,1
+CUST-1988,David Taylor #989,Electronics,107,19,1954.04,0.09,2,0.3,2,0
+CUST-1989,David Taylor #990,Home & Kitchen,32,10,677.44,0.44,6,2.5,4,1
+CUST-1990,Aditya Nair #991,Fashion & Apparel,26,28,2592.36,0.63,3,1.0,2,0
+CUST-1991,Aditya Nair #992,Beauty & Care,16,29,1059.61,0.16,3,2.9,3,0
+CUST-1992,Sneha Rao #993,Electronics,25,15,1621.23,0.14,2,1.1,4,0
+CUST-1993,Rachel Martin #994,Electronics,54,35,3743.95,0.19,2,2.2,3,0
+CUST-1994,Aditya Nair #995,Home & Kitchen,28,6,233.5,0.58,3,3.2,4,0
+CUST-1995,Rohan Mehta #996,Home & Kitchen,73,12,605.41,0.14,1,1.7,5,0
+CUST-1996,Rachel Martin #997,Electronics,56,38,1273.5,0.75,4,1.7,1,1
+CUST-1997,John Miller #998,Beauty & Care,65,13,625.25,0.06,4,0.2,4,0
+CUST-1998,Ananya Iyer #999,Beauty & Care,93,29,2736.33,0.56,5,1.2,2,1
+CUST-1999,Diya Patel #1000,Fashion & Apparel,86,19,1085.98,0.22,0,1.7,3,0
+CUST-2000,Karan Malhotra #1001,Fashion & Apparel,80,3,97.54,0.42,1,1.4,1,1
+CUST-2001,Laura Harris #1002,Sports & Fitness,41,8,432.71,0.35,0,5.1,2,0
+CUST-2002,Diya Patel #1003,Home & Kitchen,115,8,867.34,0.18,1,5.2,3,1
+CUST-2003,Daniel Clark #1004,Fashion & Apparel,108,20,1570.46,0.22,1,3.8,3,0
+CUST-2004,John Miller #1005,Beauty & Care,51,4,241.49,0.21,1,1.0,5,0
+CUST-2005,Emily Davis #1006,Fashion & Apparel,118,21,822.27,0.57,0,2.8,4,0
+CUST-2006,James Lewis #1007,Fashion & Apparel,105,3,326.48,0.55,1,1.1,5,0
+CUST-2007,Karan Malhotra #1008,Fashion & Apparel,71,8,758.18,0.47,3,0.6,4,0
+CUST-2008,Rachel Martin #1009,Beauty & Care,78,23,1125.29,0.17,1,0.9,2,0
+CUST-2009,Ananya Iyer #1010,Home & Kitchen,29,16,495.29,0.51,1,0.2,3,0
+CUST-2010,Aarav Sharma #1011,Home & Kitchen,83,13,387.57,0.4,1,0.9,3,0
+CUST-2011,Daniel Clark #1012,Fashion & Apparel,19,3,105.7,0.58,3,1.4,3,0
+CUST-2012,John Miller #1013,Electronics,66,9,669.29,0.13,4,6.8,4,0
+CUST-2013,Laura Harris #1014,Fashion & Apparel,41,14,1455.23,0.61,2,0.8,3,0
+CUST-2014,Daniel Clark #1015,Home & Kitchen,45,13,873.9,0.35,4,5.1,3,1
+CUST-2015,Karan Malhotra #1016,Fashion & Apparel,15,7,676.55,0.35,2,0.6,2,0
+CUST-2016,Daniel Clark #1017,Electronics,3,15,943.51,0.34,1,0.5,1,0
+CUST-2017,Rachel Martin #1018,Beauty & Care,11,7,596.61,0.94,2,1.6,2,1
+CUST-2018,Aditya Nair #1019,Electronics,53,38,3313.95,0.1,1,2.5,1,1
+CUST-2019,Daniel Clark #1020,Sports & Fitness,46,34,1352.76,0.26,0,0.1,4,0
+CUST-2020,Rachel Martin #1021,Electronics,30,22,1225.47,0.46,1,0.5,1,0
+CUST-2021,Neha Joshi #1022,Home & Kitchen,57,24,1900.1,0.3,5,1.3,4,0
+CUST-2022,Daniel Clark #1023,Electronics,104,37,1147.34,0.67,1,0.9,3,0
+CUST-2023,Karan Malhotra #1024,Sports & Fitness,18,1,55.73,0.08,2,2.7,1,0
+CUST-2024,Aarav Sharma #1025,Fashion & Apparel,51,10,704.58,0.14,2,1.6,4,0
+CUST-2025,Michael Brown #1026,Electronics,48,16,1754.87,0.06,3,0.4,4,0
+CUST-2026,James Lewis #1027,Fashion & Apparel,66,8,522.68,0.51,3,4.9,2,1
+CUST-2027,James Lewis #1028,Electronics,96,25,2359.12,0.06,1,0.8,5,0
+CUST-2028,Daniel Clark #1029,Electronics,8,12,740.71,0.89,3,2.9,1,1
+CUST-2029,Michael Brown #1030,Sports & Fitness,22,25,2317.33,0.7,1,3.3,2,0
+CUST-2030,Jessica White #1031,Fashion & Apparel,6,17,1285.37,0.08,3,7.3,4,0
+CUST-2031,Neha Joshi #1032,Beauty & Care,76,26,2609.38,0.29,5,1.5,4,0
+CUST-2032,James Lewis #1033,Home & Kitchen,111,14,839.02,0.47,2,2.1,2,1
+CUST-2033,Laura Harris #1034,Home & Kitchen,57,36,2749.17,0.05,1,0.9,1,0
+CUST-2034,Aarav Sharma #1035,Electronics,104,23,1806.69,0.47,0,2.5,5,0
+CUST-2035,Sarah Wilson #1036,Electronics,36,6,362.87,0.44,1,1.4,3,0
+CUST-2036,James Lewis #1037,Beauty & Care,79,5,186.33,0.21,3,1.3,2,1
+CUST-2037,David Taylor #1038,Sports & Fitness,92,25,823.81,0.37,4,4.3,3,1
+CUST-2038,Laura Harris #1039,Fashion & Apparel,116,18,475.51,0.62,1,0.1,5,0
+CUST-2039,Diya Patel #1040,Fashion & Apparel,57,13,1290.26,0.49,4,4.7,1,1
+CUST-2040,Daniel Clark #1041,Fashion & Apparel,49,14,631.41,0.44,2,4.2,4,0
+CUST-2041,Laura Harris #1042,Sports & Fitness,45,28,1203.39,0.38,0,1.6,4,0
+CUST-2042,Ananya Iyer #1043,Fashion & Apparel,82,18,1576.13,0.28,3,1.5,3,0
+CUST-2043,James Lewis #1044,Fashion & Apparel,66,28,1461.64,0.35,0,1.0,4,0
+CUST-2044,Pooja Verma #1045,Beauty & Care,77,27,1836.37,0.14,3,11.3,5,0
+CUST-2045,Aarav Sharma #1046,Electronics,45,32,1242.03,0.06,2,0.3,2,0
+CUST-2046,Neha Joshi #1047,Electronics,118,9,959.21,0.47,5,2.0,2,1
+CUST-2047,Karan Malhotra #1048,Home & Kitchen,79,32,3116.3,0.12,4,2.5,5,0
+CUST-2048,Rohan Mehta #1049,Sports & Fitness,20,20,1968.44,0.15,2,6.0,4,0
+CUST-2049,Sneha Rao #1050,Electronics,64,28,1668.12,0.63,3,3.3,3,1
+CUST-2050,Sneha Rao #1051,Fashion & Apparel,93,33,2963.42,0.41,1,2.3,4,0
+CUST-2051,James Lewis #1052,Fashion & Apparel,106,4,148.92,0.46,2,0.3,4,1
+CUST-2052,Sarah Wilson #1053,Fashion & Apparel,93,34,874.91,0.1,1,1.0,4,0
+CUST-2053,Diya Patel #1054,Home & Kitchen,67,3,80.09,0.38,5,0.3,5,0
+CUST-2054,Aarav Sharma #1055,Fashion & Apparel,83,26,1946.39,0.59,1,4.7,3,1
+CUST-2055,Laura Harris #1056,Fashion & Apparel,3,8,509.67,0.84,1,3.0,2,0
+CUST-2056,Karan Malhotra #1057,Fashion & Apparel,54,6,414.19,0.38,1,3.1,4,0
+CUST-2057,Neha Joshi #1058,Home & Kitchen,78,16,410.15,0.24,1,2.3,3,0
+CUST-2058,Aarav Sharma #1059,Fashion & Apparel,64,24,1462.28,0.58,0,1.6,4,0
+CUST-2059,Rohan Mehta #1060,Beauty & Care,40,39,3355.4,0.26,2,0.4,3,0
+CUST-2060,Neha Joshi #1061,Electronics,59,30,1878.87,0.26,1,0.9,2,0
+CUST-2061,David Taylor #1062,Beauty & Care,55,13,1134.1,0.65,3,0.3,3,0
+CUST-2062,Vikram Singh #1063,Beauty & Care,62,5,224.03,0.14,2,2.8,4,0
+CUST-2063,Rohan Mehta #1064,Fashion & Apparel,4,25,2352.93,0.24,2,0.4,4,0
+CUST-2064,James Lewis #1065,Fashion & Apparel,60,20,1500.33,0.36,2,2.7,3,0
+CUST-2065,Aarav Sharma #1066,Fashion & Apparel,116,18,772.47,0.2,1,2.6,2,1
+CUST-2066,David Taylor #1067,Electronics,75,18,812.18,0.27,0,1.4,3,0
+CUST-2067,Neha Joshi #1068,Fashion & Apparel,95,2,156.77,0.25,1,0.3,4,0
+CUST-2068,Diya Patel #1069,Electronics,107,10,955.45,0.57,2,0.8,3,1
+CUST-2069,Rohan Mehta #1070,Fashion & Apparel,96,12,723.94,0.78,0,0.8,4,0
+CUST-2070,Sarah Wilson #1071,Beauty & Care,91,13,610.42,0.35,4,2.7,3,1
+CUST-2071,Sarah Wilson #1072,Fashion & Apparel,30,11,1085.66,0.32,1,0.3,2,0
+CUST-2072,John Miller #1073,Beauty & Care,107,19,1555.87,0.32,3,3.9,4,0
+CUST-2073,Jessica White #1074,Fashion & Apparel,2,35,2208.05,0.16,3,3.1,1,0
+CUST-2074,Pooja Verma #1075,Beauty & Care,62,39,2592.39,0.6,1,0.5,3,0
+CUST-2075,Rachel Martin #1076,Home & Kitchen,49,26,1101.41,0.8,1,2.8,2,0
+CUST-2076,Vikram Singh #1077,Electronics,9,14,1095.9,0.42,1,2.4,1,0
+CUST-2077,Sarah Wilson #1078,Home & Kitchen,92,24,1331.83,0.57,3,3.0,3,1
+CUST-2078,Jessica White #1079,Electronics,31,1,109.63,0.59,1,0.5,3,0
+CUST-2079,Laura Harris #1080,Fashion & Apparel,98,22,1447.94,0.45,2,0.4,4,0
+CUST-2080,Karan Malhotra #1081,Sports & Fitness,61,23,1524.91,0.59,0,0.6,4,0
+CUST-2081,Sneha Rao #1082,Electronics,79,19,1388.85,0.58,1,1.0,4,0
+CUST-2082,Karan Malhotra #1083,Fashion & Apparel,48,18,1852.64,0.13,3,3.5,3,0
+CUST-2083,Aarav Sharma #1084,Home & Kitchen,25,12,1116.83,0.43,2,2.9,4,0
+CUST-2084,James Lewis #1085,Beauty & Care,36,28,1773.69,0.4,3,5.7,4,0
+CUST-2085,Jessica White #1086,Home & Kitchen,8,28,2410.5,0.21,2,0.1,3,0
+CUST-2086,James Lewis #1087,Fashion & Apparel,73,33,2469.39,0.2,1,0.0,4,0
+CUST-2087,Pooja Verma #1088,Home & Kitchen,58,19,1270.17,0.44,1,2.6,5,0
+CUST-2088,Laura Harris #1089,Fashion & Apparel,101,28,1157.71,0.25,2,0.7,2,0
+CUST-2089,Diya Patel #1090,Home & Kitchen,112,37,2384.08,0.39,1,0.9,5,0
+CUST-2090,Aarav Sharma #1091,Sports & Fitness,45,26,1193.26,0.54,2,1.7,1,1
+CUST-2091,David Taylor #1092,Home & Kitchen,62,35,3596.66,0.13,1,0.2,3,0
+CUST-2092,Vikram Singh #1093,Beauty & Care,39,34,1819.33,0.37,5,2.3,2,1
+CUST-2093,Rachel Martin #1094,Electronics,96,35,3707.99,0.28,1,0.9,4,0
+CUST-2094,John Miller #1095,Home & Kitchen,58,16,1124.96,0.57,2,2.2,2,1
+CUST-2095,Sneha Rao #1096,Beauty & Care,116,38,2989.89,0.23,5,4.0,5,0
+CUST-2096,Diya Patel #1097,Electronics,81,13,924.95,0.66,2,0.4,4,0
+CUST-2097,Rohan Mehta #1098,Beauty & Care,99,23,827.94,0.44,0,5.9,4,0
+CUST-2098,Emily Davis #1099,Fashion & Apparel,101,22,1252.79,0.58,3,1.7,3,1
+CUST-2099,Rachel Martin #1100,Home & Kitchen,83,16,534.84,0.61,2,5.6,5,0
+CUST-2100,Vikram Singh #1101,Beauty & Care,64,28,2182.63,0.36,1,0.5,4,0
+CUST-2101,Vikram Singh #1102,Home & Kitchen,44,35,2204.45,0.12,0,2.0,3,0
+CUST-2102,Ananya Iyer #1103,Electronics,29,8,729.03,0.15,1,1.1,4,0
+CUST-2103,Aditya Nair #1104,Home & Kitchen,59,22,962.28,0.65,3,3.3,4,0
+CUST-2104,Diya Patel #1105,Fashion & Apparel,71,21,818.75,0.22,3,2.0,4,0
+CUST-2105,Emily Davis #1106,Sports & Fitness,92,26,1547.99,0.47,2,1.5,3,0
+CUST-2106,Rohan Mehta #1107,Fashion & Apparel,9,21,2178.95,0.67,0,5.4,3,0
+CUST-2107,Rachel Martin #1108,Fashion & Apparel,92,25,2134.65,0.34,2,1.0,1,1
+CUST-2108,Emily Davis #1109,Home & Kitchen,6,1,60.61,0.33,1,0.5,3,0
+CUST-2109,Daniel Clark #1110,Fashion & Apparel,29,6,413.81,0.5,3,2.1,4,0
+CUST-2110,Sneha Rao #1111,Home & Kitchen,58,23,739.64,0.26,0,2.2,5,0
+CUST-2111,Sarah Wilson #1112,Home & Kitchen,17,23,2499.85,0.77,1,1.3,5,0
+CUST-2112,Daniel Clark #1113,Beauty & Care,16,23,1877.83,0.14,3,1.5,4,0
+CUST-2113,Laura Harris #1114,Home & Kitchen,87,32,1576.3,0.74,2,7.1,4,1
+CUST-2114,James Lewis #1115,Fashion & Apparel,95,30,2243.81,0.13,2,2.9,2,0
+CUST-2115,Daniel Clark #1116,Electronics,3,13,445.98,0.87,2,0.3,4,0
+CUST-2116,Sarah Wilson #1117,Electronics,21,18,1927.73,0.19,1,0.5,1,0
+CUST-2117,Aditya Nair #1118,Electronics,64,23,916.7,0.51,1,8.2,2,0
+CUST-2118,Neha Joshi #1119,Electronics,90,15,1201.24,0.25,2,2.9,4,0
+CUST-2119,Diya Patel #1120,Home & Kitchen,36,33,1513.5,0.22,1,5.4,3,0
+CUST-2120,Michael Brown #1121,Home & Kitchen,106,21,1805.85,0.59,4,0.8,1,1
+CUST-2121,Karan Malhotra #1122,Fashion & Apparel,101,39,3550.16,0.13,3,3.0,4,0
+CUST-2122,Aditya Nair #1123,Beauty & Care,117,23,1891.54,0.68,2,2.8,3,1
+CUST-2123,John Miller #1124,Sports & Fitness,86,27,2085.28,0.56,4,0.8,1,1
+CUST-2124,Sarah Wilson #1125,Beauty & Care,62,18,1815.48,0.51,3,1.8,1,1
+CUST-2125,Pooja Verma #1126,Home & Kitchen,42,24,760.4,0.23,2,2.2,2,0
+CUST-2126,Michael Brown #1127,Fashion & Apparel,76,7,371.89,0.63,3,1.4,2,1
+CUST-2127,Diya Patel #1128,Fashion & Apparel,42,20,922.09,0.07,2,3.9,4,0
+CUST-2128,Vikram Singh #1129,Electronics,61,27,2942.49,0.39,3,3.9,3,0
+CUST-2129,John Miller #1130,Fashion & Apparel,13,6,348.59,0.3,2,4.2,4,0
+CUST-2130,Ananya Iyer #1131,Sports & Fitness,11,27,2356.35,0.44,3,3.6,2,0
+CUST-2131,Laura Harris #1132,Beauty & Care,54,9,748.81,0.54,1,1.5,3,0
+CUST-2132,Sneha Rao #1133,Electronics,16,31,1333.83,0.21,1,1.1,4,0
+CUST-2133,Pooja Verma #1134,Fashion & Apparel,8,21,951.61,0.64,6,3.9,4,0
+CUST-2134,Aditya Nair #1135,Beauty & Care,104,26,1271.64,0.21,0,1.5,4,0
+CUST-2135,Ananya Iyer #1136,Electronics,59,13,779.3,0.24,1,0.6,5,0
+CUST-2136,Diya Patel #1137,Fashion & Apparel,57,23,1033.11,0.62,3,1.6,2,1
+CUST-2137,Daniel Clark #1138,Beauty & Care,40,20,533.41,0.37,1,0.3,3,0
+CUST-2138,Vikram Singh #1139,Fashion & Apparel,109,37,3690.69,0.36,1,2.6,5,0
+CUST-2139,Ananya Iyer #1140,Electronics,59,28,2998.15,0.15,1,0.9,1,0
+CUST-2140,Emily Davis #1141,Fashion & Apparel,2,17,918.57,0.57,0,0.7,1,0
+CUST-2141,Sneha Rao #1142,Beauty & Care,94,28,1505.65,0.39,1,6.9,2,1
+CUST-2142,Ananya Iyer #1143,Home & Kitchen,94,2,51.21,0.18,2,3.3,4,0
+CUST-2143,Neha Joshi #1144,Electronics,76,25,2070.53,0.56,1,3.4,2,1
+CUST-2144,Diya Patel #1145,Fashion & Apparel,10,6,570.97,0.16,2,2.2,2,0
+CUST-2145,Emily Davis #1146,Fashion & Apparel,44,11,412.08,0.61,0,4.0,3,0
+CUST-2146,Michael Brown #1147,Home & Kitchen,11,38,1465.72,0.06,1,3.1,4,0
+CUST-2147,Karan Malhotra #1148,Beauty & Care,79,6,552.94,0.36,2,2.0,2,1
+CUST-2148,Sneha Rao #1149,Electronics,80,11,851.23,0.83,0,7.1,3,1
+CUST-2149,Michael Brown #1150,Beauty & Care,81,14,403.38,0.42,1,0.5,4,0
+CUST-2150,Daniel Clark #1151,Electronics,90,2,155.83,0.14,4,6.3,5,0
+CUST-2151,Sarah Wilson #1152,Fashion & Apparel,2,3,153.77,0.35,0,1.1,4,0
+CUST-2152,Diya Patel #1153,Electronics,50,35,1971.96,0.23,1,1.7,4,0
+CUST-2153,John Miller #1154,Fashion & Apparel,12,33,2984.1,0.46,1,0.3,3,0
+CUST-2154,Aarav Sharma #1155,Fashion & Apparel,115,24,2254.31,0.23,1,1.7,2,0
+CUST-2155,James Lewis #1156,Fashion & Apparel,90,19,1121.58,0.43,0,2.1,3,0
+CUST-2156,Pooja Verma #1157,Electronics,23,18,1899.14,0.6,2,13.4,4,0
+CUST-2157,James Lewis #1158,Home & Kitchen,18,24,1429.18,0.39,3,8.1,3,0
+CUST-2158,John Miller #1159,Electronics,62,35,3171.21,0.26,2,7.5,4,0
+CUST-2159,Neha Joshi #1160,Beauty & Care,96,1,66.13,0.4,1,0.9,5,0
+CUST-2160,John Miller #1161,Sports & Fitness,113,36,3646.45,0.6,3,10.4,1,1
+CUST-2161,Pooja Verma #1162,Fashion & Apparel,62,25,2553.99,0.56,4,1.3,1,1
+CUST-2162,Daniel Clark #1163,Fashion & Apparel,38,34,1102.63,0.59,0,4.2,2,0
+CUST-2163,Karan Malhotra #1164,Fashion & Apparel,111,25,2615.05,0.32,1,0.5,3,1
+CUST-2164,Neha Joshi #1165,Electronics,67,16,1522.73,0.28,3,1.6,2,1
+CUST-2165,Rohan Mehta #1166,Fashion & Apparel,38,34,3136.89,0.67,2,7.4,5,0
+CUST-2166,Diya Patel #1167,Beauty & Care,67,29,1220.25,0.48,3,6.5,1,1
+CUST-2167,David Taylor #1168,Home & Kitchen,94,19,1775.27,0.53,0,2.5,3,1
+CUST-2168,Vikram Singh #1169,Electronics,61,23,2237.01,0.77,3,3.5,2,1
+CUST-2169,Aarav Sharma #1170,Beauty & Care,1,19,941.98,0.28,2,0.4,5,0
+CUST-2170,Pooja Verma #1171,Fashion & Apparel,94,25,2648.55,0.8,3,2.8,4,1
+CUST-2171,David Taylor #1172,Beauty & Care,45,16,467.81,0.08,2,2.1,5,0
+CUST-2172,Rachel Martin #1173,Home & Kitchen,96,9,339.68,0.63,1,0.2,5,0
+CUST-2173,James Lewis #1174,Home & Kitchen,28,1,70.69,0.57,0,0.3,3,0
+CUST-2174,Rohan Mehta #1175,Electronics,21,19,1404.9,0.52,1,0.3,2,0
+CUST-2175,Rachel Martin #1176,Electronics,110,33,2634.65,0.67,4,2.8,2,1
+CUST-2176,John Miller #1177,Sports & Fitness,13,34,899.04,0.58,2,0.3,2,0
+CUST-2177,Daniel Clark #1178,Electronics,27,16,1706.1,0.39,5,1.4,4,0
+CUST-2178,Michael Brown #1179,Sports & Fitness,100,18,518.22,0.3,3,1.0,1,1
+CUST-2179,John Miller #1180,Fashion & Apparel,7,34,1263.45,0.11,1,1.8,1,0
+CUST-2180,Diya Patel #1181,Electronics,22,25,654.78,0.37,1,2.7,4,0
+CUST-2181,Aditya Nair #1182,Electronics,74,6,439.1,0.04,3,2.5,4,0
+CUST-2182,Diya Patel #1183,Electronics,103,21,2189.1,0.6,3,1.6,4,0
+CUST-2183,Aditya Nair #1184,Sports & Fitness,53,6,489.63,0.19,3,1.4,3,0
+CUST-2184,Aditya Nair #1185,Fashion & Apparel,79,32,3037.63,0.54,1,1.1,4,0
+CUST-2185,Neha Joshi #1186,Fashion & Apparel,79,39,1019.03,0.39,1,4.4,3,0
+CUST-2186,Daniel Clark #1187,Fashion & Apparel,4,31,2203.21,0.64,3,0.9,1,0
+CUST-2187,Aarav Sharma #1188,Electronics,96,10,640.63,0.1,0,0.7,4,0
+CUST-2188,John Miller #1189,Fashion & Apparel,23,30,2022.37,0.39,1,3.0,5,0
+CUST-2189,Neha Joshi #1190,Electronics,119,18,560.49,0.46,3,1.0,1,1
+CUST-2190,Sneha Rao #1191,Beauty & Care,70,24,1996.25,0.29,2,4.1,3,0
+CUST-2191,Karan Malhotra #1192,Fashion & Apparel,88,9,609.96,0.33,3,0.9,3,0
+CUST-2192,Rohan Mehta #1193,Fashion & Apparel,84,31,2791.17,0.51,2,2.7,2,0
+CUST-2193,Rohan Mehta #1194,Fashion & Apparel,101,15,993.75,0.18,1,0.1,5,0
+CUST-2194,Laura Harris #1195,Fashion & Apparel,84,4,150.79,0.27,2,1.1,2,1
+CUST-2195,Vikram Singh #1196,Sports & Fitness,76,9,720.92,0.67,1,0.9,4,0
+CUST-2196,Emily Davis #1197,Fashion & Apparel,33,9,356.88,0.42,5,3.7,4,0
+CUST-2197,Emily Davis #1198,Electronics,28,26,2577.99,0.19,3,7.5,4,0
+CUST-2198,James Lewis #1199,Home & Kitchen,8,4,308.46,0.81,1,1.4,2,1
+CUST-2199,Ananya Iyer #1200,Electronics,1,17,652.16,0.35,2,3.8,2,0
+CUST-2200,Diya Patel #1201,Electronics,37,16,1708.78,0.4,3,2.6,1,0
+CUST-2201,Emily Davis #1202,Sports & Fitness,63,15,1035.92,0.78,3,7.5,2,1
+CUST-2202,James Lewis #1203,Beauty & Care,22,35,1091.87,0.06,5,3.7,3,0
+CUST-2203,Vikram Singh #1204,Sports & Fitness,70,5,391.4,0.35,0,0.2,4,0
+CUST-2204,Emily Davis #1205,Fashion & Apparel,21,5,232.61,0.74,1,2.7,3,0
+CUST-2205,Daniel Clark #1206,Fashion & Apparel,96,20,1866.28,0.03,0,1.7,4,0
+CUST-2206,Daniel Clark #1207,Electronics,35,15,1417.72,0.13,4,0.0,3,0
+CUST-2207,Sneha Rao #1208,Electronics,79,18,1947.79,0.39,0,0.6,4,0
+CUST-2208,Daniel Clark #1209,Beauty & Care,5,2,135.32,0.44,1,5.6,5,0
+CUST-2209,David Taylor #1210,Fashion & Apparel,60,29,1846.47,0.23,1,5.7,2,0
+CUST-2210,Emily Davis #1211,Beauty & Care,46,13,1157.59,0.57,2,3.5,5,0
+CUST-2211,Jessica White #1212,Home & Kitchen,50,4,145.04,0.23,0,8.8,4,0
+CUST-2212,James Lewis #1213,Electronics,48,10,714.88,0.19,3,3.6,4,0
+CUST-2213,Neha Joshi #1214,Fashion & Apparel,6,31,2214.36,0.46,3,0.0,4,0
+CUST-2214,Daniel Clark #1215,Home & Kitchen,89,8,260.84,0.31,2,0.7,3,1
+CUST-2215,Vikram Singh #1216,Electronics,56,3,181.59,0.21,1,0.1,2,0
+CUST-2216,Jessica White #1217,Beauty & Care,110,9,877.76,0.58,3,0.2,1,1
+CUST-2217,Ananya Iyer #1218,Fashion & Apparel,59,30,2933.19,0.29,2,0.5,3,0
+CUST-2218,Neha Joshi #1219,Electronics,104,11,367.79,0.16,2,1.5,5,0
+CUST-2219,Laura Harris #1220,Home & Kitchen,29,35,1144.89,0.27,2,4.1,4,0
+CUST-2220,Emily Davis #1221,Sports & Fitness,71,37,1751.18,0.41,1,4.4,3,0
+CUST-2221,David Taylor #1222,Electronics,104,13,1291.62,0.08,4,2.1,4,1
+CUST-2222,Aditya Nair #1223,Beauty & Care,77,36,1294.44,0.48,0,5.8,4,0
+CUST-2223,Michael Brown #1224,Electronics,102,13,1120.6,0.39,1,1.5,2,1
+CUST-2224,David Taylor #1225,Beauty & Care,18,12,403.19,0.27,0,4.8,1,0
+CUST-2225,Sneha Rao #1226,Home & Kitchen,2,37,2884.77,0.57,2,1.3,1,0
+CUST-2226,Jessica White #1227,Fashion & Apparel,8,10,552.66,0.24,5,0.7,5,0
+CUST-2227,Karan Malhotra #1228,Fashion & Apparel,75,9,828.52,0.47,4,5.5,4,1
+CUST-2228,Daniel Clark #1229,Beauty & Care,97,7,314.05,0.32,1,1.1,2,1
+CUST-2229,Karan Malhotra #1230,Fashion & Apparel,54,2,158.66,0.04,1,1.5,2,0
+CUST-2230,Sarah Wilson #1231,Home & Kitchen,38,23,1035.76,0.7,3,0.9,4,0
+CUST-2231,David Taylor #1232,Electronics,48,39,3340.78,0.1,1,2.4,5,0
+CUST-2232,Karan Malhotra #1233,Beauty & Care,27,39,3871.24,0.69,0,11.7,4,0
+CUST-2233,Aditya Nair #1234,Home & Kitchen,20,21,751.34,0.7,3,0.1,4,0
+CUST-2234,James Lewis #1235,Sports & Fitness,12,23,2269.19,0.41,1,5.1,2,0
+CUST-2235,Jessica White #1236,Electronics,43,29,2188.16,0.41,5,0.0,3,0
+CUST-2236,Neha Joshi #1237,Home & Kitchen,61,14,501.26,0.22,4,1.0,2,1
+CUST-2237,Laura Harris #1238,Home & Kitchen,31,26,1594.87,0.28,2,0.4,4,0
+CUST-2238,Laura Harris #1239,Fashion & Apparel,91,5,193.37,0.29,1,3.1,3,0
+CUST-2239,Rachel Martin #1240,Fashion & Apparel,96,31,2620.42,0.07,2,0.1,4,0
+CUST-2240,Karan Malhotra #1241,Electronics,61,25,2237.59,0.54,3,1.8,3,0
+CUST-2241,Rohan Mehta #1242,Home & Kitchen,74,31,1053.77,0.47,3,0.8,4,0
+CUST-2242,Laura Harris #1243,Fashion & Apparel,67,20,1360.44,0.3,1,0.3,3,0
+CUST-2243,Sneha Rao #1244,Electronics,109,17,1602.13,0.36,2,3.3,3,0
+CUST-2244,Karan Malhotra #1245,Home & Kitchen,91,2,209.15,0.4,1,0.5,4,0
+CUST-2245,Daniel Clark #1246,Fashion & Apparel,35,25,1716.23,0.51,5,0.6,1,1
+CUST-2246,Sarah Wilson #1247,Electronics,95,13,1375.06,0.59,2,0.7,5,0
+CUST-2247,Rohan Mehta #1248,Sports & Fitness,15,39,2750.81,0.65,2,1.9,4,0
+CUST-2248,Emily Davis #1249,Sports & Fitness,16,28,1638.17,0.17,2,2.4,3,0
+CUST-2249,Michael Brown #1250,Fashion & Apparel,13,6,582.58,0.55,2,0.0,4,0
+CUST-2250,Diya Patel #1251,Electronics,113,3,200.71,0.33,4,0.6,5,0
+CUST-2251,Rohan Mehta #1252,Beauty & Care,35,35,2278.91,0.62,0,1.2,3,0
+CUST-2252,Vikram Singh #1253,Fashion & Apparel,116,18,1200.18,0.2,3,0.9,5,0
+CUST-2253,John Miller #1254,Fashion & Apparel,75,11,1066.74,0.15,0,4.7,1,1
+CUST-2254,Neha Joshi #1255,Fashion & Apparel,59,20,1914.3,0.22,1,3.4,1,1
+CUST-2255,Emily Davis #1256,Fashion & Apparel,21,5,296.5,0.58,7,2.2,4,1
+CUST-2256,Karan Malhotra #1257,Home & Kitchen,115,19,1013.28,0.2,2,0.9,3,0
+CUST-2257,David Taylor #1258,Fashion & Apparel,54,22,1469.91,0.07,3,2.7,3,0
+CUST-2258,Daniel Clark #1259,Home & Kitchen,75,19,1400.03,0.67,1,4.1,3,0
+CUST-2259,Pooja Verma #1260,Sports & Fitness,30,16,724.14,0.18,1,2.0,3,0
+CUST-2260,Michael Brown #1261,Fashion & Apparel,48,24,2219.67,0.57,2,3.4,4,0
+CUST-2261,Laura Harris #1262,Home & Kitchen,117,4,265.4,0.68,1,3.0,4,1
+CUST-2262,Aarav Sharma #1263,Beauty & Care,35,15,800.91,0.15,0,1.9,5,0
+CUST-2263,Jessica White #1264,Fashion & Apparel,86,25,851.99,0.44,1,0.8,4,0
+CUST-2264,Michael Brown #1265,Fashion & Apparel,38,35,1585.56,0.39,1,3.0,2,0
+CUST-2265,Sneha Rao #1266,Home & Kitchen,31,14,1479.64,0.33,0,0.5,2,0
+CUST-2266,Emily Davis #1267,Home & Kitchen,78,19,967.74,0.91,2,3.3,3,1
+CUST-2267,Diya Patel #1268,Beauty & Care,24,38,1495.42,0.6,3,3.6,4,0
+CUST-2268,Rohan Mehta #1269,Fashion & Apparel,114,36,2309.66,0.28,2,3.8,1,1
+CUST-2269,Sneha Rao #1270,Sports & Fitness,49,7,357.72,0.76,7,1.4,2,1
+CUST-2270,Diya Patel #1271,Electronics,96,30,839.66,0.52,2,0.5,5,0
+CUST-2271,Michael Brown #1272,Electronics,100,19,996.88,0.46,1,0.2,4,0
+CUST-2272,Michael Brown #1273,Home & Kitchen,32,25,1781.23,0.01,5,3.0,2,0
+CUST-2273,Laura Harris #1274,Fashion & Apparel,55,16,1150.33,0.19,2,4.8,2,0
+CUST-2274,Rohan Mehta #1275,Electronics,79,8,442.46,0.36,1,2.3,5,0
+CUST-2275,Karan Malhotra #1276,Fashion & Apparel,107,18,1134.37,0.25,1,0.3,5,0
+CUST-2276,Sarah Wilson #1277,Fashion & Apparel,58,28,2997.93,0.15,2,6.0,2,0
+CUST-2277,Rachel Martin #1278,Electronics,99,16,913.19,0.53,1,9.9,3,1
+CUST-2278,Daniel Clark #1279,Sports & Fitness,3,19,892.04,0.26,2,1.2,4,0
+CUST-2279,Emily Davis #1280,Electronics,80,17,776.81,0.78,3,2.0,4,0
+CUST-2280,Jessica White #1281,Home & Kitchen,69,13,830.83,0.34,1,3.3,4,0
+CUST-2281,Emily Davis #1282,Beauty & Care,85,7,626.91,0.35,1,2.9,3,1
+CUST-2282,David Taylor #1283,Sports & Fitness,10,27,1147.74,0.53,4,7.6,5,0
+CUST-2283,Sneha Rao #1284,Electronics,83,10,852.9,0.37,2,0.3,3,0
+CUST-2284,Karan Malhotra #1285,Beauty & Care,25,34,911.12,0.81,1,1.9,2,0
+CUST-2285,Rachel Martin #1286,Fashion & Apparel,68,36,2181.93,0.33,1,2.6,4,0
+CUST-2286,Vikram Singh #1287,Home & Kitchen,61,25,2273.71,0.32,3,4.9,3,0
+CUST-2287,Aarav Sharma #1288,Home & Kitchen,29,6,322.75,0.38,3,4.6,5,0
+CUST-2288,Daniel Clark #1289,Beauty & Care,19,24,1750.02,0.47,0,8.4,1,0
+CUST-2289,Rohan Mehta #1290,Fashion & Apparel,43,18,763.62,0.27,1,1.6,4,0
+CUST-2290,Michael Brown #1291,Home & Kitchen,66,23,2025.6,0.32,3,3.9,2,1
+CUST-2291,Sarah Wilson #1292,Fashion & Apparel,74,6,176.66,0.47,1,1.2,4,0
+CUST-2292,Laura Harris #1293,Beauty & Care,61,29,2826.52,0.19,3,1.2,1,0
+CUST-2293,Pooja Verma #1294,Sports & Fitness,43,25,1046.17,0.69,0,0.6,4,0
+CUST-2294,Laura Harris #1295,Electronics,25,17,1688.51,0.39,2,3.8,4,0
+CUST-2295,Vikram Singh #1296,Sports & Fitness,20,24,1319.16,0.18,3,9.4,3,0
+CUST-2296,Jessica White #1297,Electronics,48,11,950.71,0.27,4,0.7,2,1
+CUST-2297,Aarav Sharma #1298,Electronics,83,26,1355.49,0.58,1,0.1,3,0
+CUST-2298,Sarah Wilson #1299,Electronics,87,34,3468.08,0.19,2,3.7,4,0
+CUST-2299,David Taylor #1300,Fashion & Apparel,24,28,1001.4,0.37,0,2.1,3,0
+CUST-2300,Aditya Nair #1301,Home & Kitchen,11,3,120.52,0.15,0,7.1,2,0
+CUST-2301,David Taylor #1302,Electronics,110,11,735.98,0.09,1,0.6,2,0
+CUST-2302,Daniel Clark #1303,Electronics,98,38,1214.66,0.31,1,0.2,5,0
+CUST-2303,Pooja Verma #1304,Sports & Fitness,55,14,583.22,0.12,3,1.5,3,0
+CUST-2304,Emily Davis #1305,Beauty & Care,28,26,2735.72,0.63,2,0.2,1,0
+CUST-2305,Vikram Singh #1306,Beauty & Care,69,21,2268.03,0.14,0,0.7,4,0
+CUST-2306,Vikram Singh #1307,Beauty & Care,63,39,2222.3,0.66,2,0.3,4,0
+CUST-2307,John Miller #1308,Home & Kitchen,59,30,3104.38,0.68,2,0.6,2,1
+CUST-2308,Ananya Iyer #1309,Electronics,5,8,570.48,0.17,4,0.2,5,0
+CUST-2309,Karan Malhotra #1310,Fashion & Apparel,51,20,958.56,0.17,2,6.8,4,0
+CUST-2310,Sarah Wilson #1311,Home & Kitchen,21,32,2710.52,0.39,5,0.7,3,0
+CUST-2311,John Miller #1312,Fashion & Apparel,12,22,1782.15,0.63,1,1.3,3,0
+CUST-2312,Michael Brown #1313,Home & Kitchen,50,7,763.53,0.29,2,5.0,5,0
+CUST-2313,Diya Patel #1314,Electronics,4,9,427.76,0.56,3,2.5,2,0
+CUST-2314,Karan Malhotra #1315,Fashion & Apparel,118,1,82.13,0.2,1,2.1,2,0
+CUST-2315,Rachel Martin #1316,Fashion & Apparel,113,29,853.24,0.22,1,2.7,2,1
+CUST-2316,Pooja Verma #1317,Home & Kitchen,42,8,277.28,0.63,4,3.9,4,0
+CUST-2317,Neha Joshi #1318,Home & Kitchen,84,4,101.33,0.21,1,4.6,4,0
+CUST-2318,Rachel Martin #1319,Home & Kitchen,38,35,3848.4,0.42,1,2.3,4,0
+CUST-2319,James Lewis #1320,Electronics,25,3,279.58,0.26,2,4.9,2,0
+CUST-2320,Michael Brown #1321,Electronics,14,7,643.1,0.4,2,1.7,4,0
+CUST-2321,Sarah Wilson #1322,Beauty & Care,75,27,1844.82,0.91,1,0.7,4,0
+CUST-2322,Sneha Rao #1323,Home & Kitchen,32,1,50.51,0.28,3,4.7,3,0
+CUST-2323,John Miller #1324,Electronics,11,27,1022.15,0.53,6,1.7,4,0
+CUST-2324,Diya Patel #1325,Beauty & Care,61,16,787.16,0.34,5,5.2,3,1
+CUST-2325,Aditya Nair #1326,Electronics,18,38,2164.39,0.74,0,0.1,4,0
+CUST-2326,Daniel Clark #1327,Fashion & Apparel,27,7,625.0,0.33,2,1.1,1,0
+CUST-2327,Rohan Mehta #1328,Electronics,55,23,1630.04,0.55,0,6.5,4,0
+CUST-2328,Ananya Iyer #1329,Home & Kitchen,54,11,347.45,0.11,2,0.6,5,0
+CUST-2329,Vikram Singh #1330,Home & Kitchen,82,33,875.57,0.29,1,6.2,5,0
+CUST-2330,Vikram Singh #1331,Electronics,87,36,1213.14,0.64,0,6.8,2,1
+CUST-2331,David Taylor #1332,Beauty & Care,75,37,2216.02,0.68,4,4.7,3,1
+CUST-2332,Daniel Clark #1333,Fashion & Apparel,21,17,1773.46,0.34,2,1.8,1,0
+CUST-2333,Aditya Nair #1334,Fashion & Apparel,44,35,2771.27,0.41,2,2.3,5,0
+CUST-2334,Rohan Mehta #1335,Electronics,5,5,465.78,0.37,1,4.5,4,0
+CUST-2335,Rachel Martin #1336,Fashion & Apparel,87,32,2068.54,0.58,0,3.3,3,0
+CUST-2336,Daniel Clark #1337,Electronics,41,3,167.22,0.47,3,2.2,1,1
+CUST-2337,Sneha Rao #1338,Home & Kitchen,59,35,1197.49,0.42,1,8.9,5,0
+CUST-2338,Rohan Mehta #1339,Beauty & Care,89,14,1392.36,0.45,0,2.5,3,0
+CUST-2339,Laura Harris #1340,Fashion & Apparel,105,31,2838.63,0.44,3,8.2,2,1
+CUST-2340,Laura Harris #1341,Electronics,54,31,1217.99,0.34,0,0.1,3,0
+CUST-2341,Daniel Clark #1342,Electronics,74,17,1165.22,0.23,1,0.3,2,1
+CUST-2342,Rohan Mehta #1343,Electronics,22,24,1594.24,0.42,1,1.3,4,0
+CUST-2343,Rohan Mehta #1344,Fashion & Apparel,83,23,1797.05,0.52,1,1.1,5,0
+CUST-2344,Ananya Iyer #1345,Beauty & Care,65,18,1897.67,0.33,3,3.4,5,0
+CUST-2345,Michael Brown #1346,Electronics,64,14,1039.93,0.13,1,0.4,3,0
+CUST-2346,David Taylor #1347,Home & Kitchen,71,15,1063.78,0.55,1,8.2,4,1
+CUST-2347,Aditya Nair #1348,Beauty & Care,4,15,439.16,0.43,5,0.8,3,0
+CUST-2348,Pooja Verma #1349,Fashion & Apparel,65,6,182.08,0.35,2,1.2,2,1
+CUST-2349,Sarah Wilson #1350,Beauty & Care,15,27,1104.96,0.57,2,0.7,5,0
+CUST-2350,Vikram Singh #1351,Home & Kitchen,104,15,416.4,0.2,0,1.9,3,0
+CUST-2351,Diya Patel #1352,Home & Kitchen,76,36,3174.66,0.57,3,0.1,3,0
+CUST-2352,John Miller #1353,Fashion & Apparel,22,8,691.86,0.18,1,0.4,5,0
+CUST-2353,Aditya Nair #1354,Fashion & Apparel,86,15,548.47,0.35,4,3.0,2,1
+CUST-2354,Rohan Mehta #1355,Electronics,114,3,288.2,0.02,2,0.5,4,0
+CUST-2355,Aditya Nair #1356,Fashion & Apparel,47,13,496.04,0.23,4,0.6,5,0
+CUST-2356,Rohan Mehta #1357,Fashion & Apparel,81,34,1720.4,0.41,2,3.5,3,0
+CUST-2357,Diya Patel #1358,Home & Kitchen,93,24,1107.91,0.2,0,0.2,1,1
+CUST-2358,Emily Davis #1359,Electronics,46,32,1812.68,0.62,3,1.3,3,0
+CUST-2359,Sneha Rao #1360,Sports & Fitness,14,32,1492.69,0.19,0,0.1,1,0
+CUST-2360,Aditya Nair #1361,Home & Kitchen,50,30,1996.82,0.3,6,0.9,3,0
+CUST-2361,David Taylor #1362,Fashion & Apparel,20,13,775.19,0.5,3,2.6,4,0
+CUST-2362,Neha Joshi #1363,Electronics,50,1,108.86,0.44,0,0.2,3,0
+CUST-2363,Vikram Singh #1364,Beauty & Care,112,34,1011.63,0.71,1,4.8,3,1
+CUST-2364,John Miller #1365,Beauty & Care,33,15,556.28,0.35,1,5.3,4,0
+CUST-2365,Diya Patel #1366,Home & Kitchen,119,14,412.86,0.81,1,0.2,4,0
+CUST-2366,David Taylor #1367,Fashion & Apparel,59,29,2267.7,0.31,3,10.3,5,0
+CUST-2367,Ananya Iyer #1368,Fashion & Apparel,43,34,1007.53,0.18,1,0.8,3,0
+CUST-2368,Neha Joshi #1369,Electronics,79,18,1729.75,0.42,2,0.2,4,0
+CUST-2369,Vikram Singh #1370,Electronics,12,7,479.6,0.28,1,0.0,4,0
+CUST-2370,Jessica White #1371,Beauty & Care,40,29,2024.07,0.34,6,1.2,3,1
+CUST-2371,Laura Harris #1372,Home & Kitchen,118,31,2254.8,0.44,5,2.2,2,1
+CUST-2372,Ananya Iyer #1373,Home & Kitchen,20,25,987.98,0.21,1,0.9,3,0
+CUST-2373,Vikram Singh #1374,Beauty & Care,94,38,1588.54,0.1,0,4.0,4,0
+CUST-2374,Jessica White #1375,Home & Kitchen,38,14,729.39,0.2,3,2.8,2,0
+CUST-2375,Michael Brown #1376,Fashion & Apparel,3,8,603.58,0.8,3,0.9,5,0
+CUST-2376,Vikram Singh #1377,Fashion & Apparel,28,27,1157.22,0.45,2,2.9,4,0
+CUST-2377,Michael Brown #1378,Sports & Fitness,56,2,69.78,0.26,7,6.2,5,0
+CUST-2378,Daniel Clark #1379,Electronics,90,17,1826.82,0.49,1,0.2,1,1
+CUST-2379,Laura Harris #1380,Sports & Fitness,94,37,994.13,0.55,1,0.8,3,0
+CUST-2380,Neha Joshi #1381,Beauty & Care,13,14,1305.21,0.14,1,1.4,1,0
+CUST-2381,Michael Brown #1382,Electronics,77,25,2299.57,0.51,2,1.5,2,1
+CUST-2382,James Lewis #1383,Home & Kitchen,66,30,1507.9,0.45,5,1.7,5,0
+CUST-2383,Rohan Mehta #1384,Beauty & Care,37,29,1059.32,0.44,1,0.8,1,0
+CUST-2384,Neha Joshi #1385,Home & Kitchen,49,20,747.57,0.32,2,2.4,3,0
+CUST-2385,Diya Patel #1386,Sports & Fitness,102,21,1769.92,0.25,1,2.3,1,1
+CUST-2386,Neha Joshi #1387,Sports & Fitness,66,22,1752.05,0.64,2,1.9,3,0
+CUST-2387,Michael Brown #1388,Fashion & Apparel,36,35,3203.67,0.39,0,0.3,4,0
+CUST-2388,Michael Brown #1389,Fashion & Apparel,54,37,3873.38,0.35,1,1.4,4,0
+CUST-2389,Aarav Sharma #1390,Sports & Fitness,26,16,1341.02,0.34,1,1.0,4,0
+CUST-2390,Ananya Iyer #1391,Home & Kitchen,75,17,650.21,0.66,3,1.5,3,1
+CUST-2391,James Lewis #1392,Electronics,72,16,731.08,0.4,1,5.6,5,0
+CUST-2392,Jessica White #1393,Electronics,108,2,193.17,0.34,2,1.4,4,1
+CUST-2393,Neha Joshi #1394,Home & Kitchen,40,4,171.16,0.3,3,0.0,3,0
+CUST-2394,Aarav Sharma #1395,Sports & Fitness,43,21,654.45,0.04,1,1.3,3,0
+CUST-2395,Jessica White #1396,Beauty & Care,22,39,3306.37,0.36,2,3.8,5,0
+CUST-2396,Aditya Nair #1397,Home & Kitchen,20,34,2013.3,0.11,3,3.3,4,0
+CUST-2397,Michael Brown #1398,Electronics,8,30,3096.1,0.38,4,1.6,4,0
+CUST-2398,John Miller #1399,Fashion & Apparel,29,6,481.63,0.12,3,0.6,3,0
+CUST-2399,Michael Brown #1400,Beauty & Care,40,17,555.66,0.32,4,1.4,2,0
+CUST-2400,Sneha Rao #1401,Electronics,90,39,4117.14,0.4,1,1.8,4,0
+CUST-2401,Pooja Verma #1402,Fashion & Apparel,30,25,1174.43,0.76,3,19.7,4,0
+CUST-2402,Ananya Iyer #1403,Electronics,81,5,268.32,0.49,2,2.3,3,1
+CUST-2403,Karan Malhotra #1404,Home & Kitchen,84,5,295.96,0.55,2,2.6,4,0
+CUST-2404,Vikram Singh #1405,Sports & Fitness,116,20,587.08,0.31,3,1.5,2,1
+CUST-2405,John Miller #1406,Fashion & Apparel,55,16,1075.26,0.42,2,1.0,4,0
+CUST-2406,Michael Brown #1407,Fashion & Apparel,16,37,1312.84,0.41,2,3.7,5,0
+CUST-2407,James Lewis #1408,Home & Kitchen,46,9,531.74,0.14,5,1.5,5,0
+CUST-2408,Sneha Rao #1409,Sports & Fitness,62,5,274.05,0.33,2,11.5,3,1
+CUST-2409,Sneha Rao #1410,Electronics,107,2,181.38,0.32,1,1.3,3,1
+CUST-2410,John Miller #1411,Fashion & Apparel,7,9,839.43,0.4,1,0.2,4,0
+CUST-2411,Karan Malhotra #1412,Fashion & Apparel,80,36,1369.44,0.78,3,2.5,4,1
+CUST-2412,Laura Harris #1413,Beauty & Care,45,22,1235.45,0.54,1,0.1,3,0
+CUST-2413,Pooja Verma #1414,Fashion & Apparel,59,22,1248.17,0.71,2,0.6,5,0
+CUST-2414,Diya Patel #1415,Electronics,111,22,833.14,0.59,1,1.0,3,0
+CUST-2415,Sarah Wilson #1416,Home & Kitchen,56,34,3157.53,0.41,1,3.0,3,0
+CUST-2416,Michael Brown #1417,Beauty & Care,48,29,2468.32,0.3,2,1.5,1,0
+CUST-2417,Emily Davis #1418,Electronics,27,38,1564.93,0.14,1,0.1,1,0
+CUST-2418,Karan Malhotra #1419,Beauty & Care,53,33,1853.65,0.4,3,2.1,1,1
+CUST-2419,Diya Patel #1420,Electronics,87,18,611.88,0.35,2,1.2,5,0
+CUST-2420,Michael Brown #1421,Home & Kitchen,88,7,548.78,0.59,5,5.6,3,1
+CUST-2421,Sarah Wilson #1422,Fashion & Apparel,73,1,35.32,0.4,1,1.5,3,0
+CUST-2422,Daniel Clark #1423,Home & Kitchen,35,33,3590.55,0.11,0,2.7,4,0
+CUST-2423,Aditya Nair #1424,Fashion & Apparel,51,1,91.36,0.65,1,0.5,4,0
+CUST-2424,Daniel Clark #1425,Beauty & Care,84,24,1396.09,0.03,1,3.1,4,0
+CUST-2425,Neha Joshi #1426,Home & Kitchen,37,4,296.71,0.57,0,2.8,2,0
+CUST-2426,Diya Patel #1427,Home & Kitchen,106,4,409.86,0.28,1,5.2,4,0
+CUST-2427,Michael Brown #1428,Beauty & Care,81,18,1297.77,0.67,3,0.1,2,0
+CUST-2428,Rohan Mehta #1429,Beauty & Care,111,27,1075.47,0.25,4,1.3,1,1
+CUST-2429,Jessica White #1430,Electronics,95,32,1830.07,0.26,1,2.5,2,0
+CUST-2430,Ananya Iyer #1431,Fashion & Apparel,119,33,3190.02,0.33,1,0.2,2,0
+CUST-2431,James Lewis #1432,Sports & Fitness,57,28,2233.23,0.16,3,1.2,2,0
+CUST-2432,Karan Malhotra #1433,Electronics,8,36,2891.22,0.49,2,6.3,4,0
+CUST-2433,Sneha Rao #1434,Home & Kitchen,79,6,592.08,0.31,1,1.3,2,0
+CUST-2434,Aditya Nair #1435,Sports & Fitness,95,16,1615.8,0.24,3,9.3,4,1
+CUST-2435,Diya Patel #1436,Electronics,117,34,3508.2,0.57,1,0.1,1,1
+CUST-2436,David Taylor #1437,Home & Kitchen,94,23,760.43,0.68,0,2.8,2,1
+CUST-2437,Vikram Singh #1438,Fashion & Apparel,110,24,1710.02,0.31,3,1.9,3,0
+CUST-2438,Pooja Verma #1439,Home & Kitchen,20,13,1143.26,0.18,2,1.5,5,0
+CUST-2439,Rachel Martin #1440,Electronics,103,18,1608.1,0.27,2,7.8,5,0
+CUST-2440,Pooja Verma #1441,Electronics,53,13,995.42,0.41,3,0.3,5,0
+CUST-2441,Laura Harris #1442,Home & Kitchen,119,37,1449.55,0.23,1,5.0,4,0
+CUST-2442,Pooja Verma #1443,Beauty & Care,12,39,3618.45,0.36,1,2.6,4,0
+CUST-2443,Daniel Clark #1444,Beauty & Care,49,17,1465.56,0.65,3,0.7,4,0
+CUST-2444,Emily Davis #1445,Fashion & Apparel,17,15,484.82,0.5,2,5.1,4,0
+CUST-2445,Daniel Clark #1446,Electronics,64,18,1159.63,0.35,4,1.2,2,1
+CUST-2446,Sneha Rao #1447,Home & Kitchen,42,23,915.13,0.25,1,3.7,3,0
+CUST-2447,Aarav Sharma #1448,Electronics,94,30,1610.57,0.36,0,1.1,3,0
+CUST-2448,Laura Harris #1449,Sports & Fitness,29,34,902.25,0.5,2,4.2,3,0
+CUST-2449,Laura Harris #1450,Beauty & Care,19,4,236.11,0.24,3,2.2,3,0
+CUST-2450,Sarah Wilson #1451,Home & Kitchen,110,3,215.22,0.2,2,0.3,2,1
+CUST-2451,David Taylor #1452,Sports & Fitness,11,7,543.65,0.21,2,2.3,3,0
+CUST-2452,Emily Davis #1453,Electronics,98,18,1465.14,0.44,3,0.5,1,1
+CUST-2453,Pooja Verma #1454,Home & Kitchen,50,7,672.59,0.27,6,1.2,5,0
+CUST-2454,Rohan Mehta #1455,Fashion & Apparel,71,6,259.89,0.64,1,0.4,1,1
+CUST-2455,Rachel Martin #1456,Sports & Fitness,108,22,775.3,0.34,3,0.0,2,1
+CUST-2456,Emily Davis #1457,Fashion & Apparel,58,1,97.38,0.51,3,0.5,5,0
+CUST-2457,Karan Malhotra #1458,Home & Kitchen,34,4,153.25,0.3,1,1.7,3,0
+CUST-2458,John Miller #1459,Beauty & Care,20,29,3127.78,0.51,1,1.4,2,0
+CUST-2459,Aarav Sharma #1460,Electronics,50,21,2028.93,0.37,1,1.5,3,0
+CUST-2460,Ananya Iyer #1461,Fashion & Apparel,102,26,1756.94,0.14,1,0.6,1,1
+CUST-2461,David Taylor #1462,Beauty & Care,88,14,1517.89,0.2,3,2.5,2,1
+CUST-2462,David Taylor #1463,Fashion & Apparel,10,9,299.49,0.42,2,2.7,1,0
+CUST-2463,James Lewis #1464,Fashion & Apparel,32,12,609.13,0.29,2,1.0,3,0
+CUST-2464,John Miller #1465,Electronics,52,6,475.49,0.07,0,4.7,4,0
+CUST-2465,Diya Patel #1466,Electronics,15,20,1095.01,0.38,0,2.3,4,0
+CUST-2466,Sarah Wilson #1467,Beauty & Care,101,24,2493.88,0.87,0,2.7,4,1
+CUST-2467,Diya Patel #1468,Home & Kitchen,84,27,825.61,0.48,4,0.7,2,0
+CUST-2468,Pooja Verma #1469,Electronics,3,38,2724.6,0.2,0,0.0,3,0
+CUST-2469,Daniel Clark #1470,Fashion & Apparel,37,8,601.79,0.58,0,4.4,4,0
+CUST-2470,Rohan Mehta #1471,Fashion & Apparel,40,1,80.48,0.66,2,3.8,1,1
+CUST-2471,Michael Brown #1472,Electronics,72,24,1121.56,0.48,3,0.3,5,0
+CUST-2472,Aditya Nair #1473,Fashion & Apparel,40,7,391.92,0.39,1,1.0,3,0
+CUST-2473,Karan Malhotra #1474,Fashion & Apparel,108,19,1837.54,0.16,1,2.4,4,0
+CUST-2474,David Taylor #1475,Fashion & Apparel,56,22,914.54,0.24,0,2.3,3,0
+CUST-2475,John Miller #1476,Home & Kitchen,23,35,3334.93,0.6,1,4.3,3,0
+CUST-2476,Rachel Martin #1477,Electronics,104,30,2184.77,0.43,2,0.3,4,0
+CUST-2477,Diya Patel #1478,Home & Kitchen,11,29,2603.79,0.66,1,1.2,4,0
+CUST-2478,David Taylor #1479,Home & Kitchen,110,22,1884.45,0.14,2,0.2,2,1
+CUST-2479,Sarah Wilson #1480,Home & Kitchen,64,11,469.02,0.42,1,1.1,5,0
+CUST-2480,Rachel Martin #1481,Home & Kitchen,8,20,1466.98,0.23,1,0.0,1,0
+CUST-2481,John Miller #1482,Fashion & Apparel,93,29,2863.94,0.63,1,5.0,1,1
+CUST-2482,Rohan Mehta #1483,Beauty & Care,94,34,2098.82,0.29,0,1.6,4,0
+CUST-2483,Daniel Clark #1484,Home & Kitchen,56,1,107.16,0.05,2,4.2,4,0
+CUST-2484,Emily Davis #1485,Fashion & Apparel,60,31,1966.59,0.44,0,0.1,5,0
+CUST-2485,David Taylor #1486,Beauty & Care,10,30,1114.1,0.45,3,0.6,3,0
+CUST-2486,Jessica White #1487,Home & Kitchen,39,18,1045.84,0.84,2,0.7,1,1
+CUST-2487,Vikram Singh #1488,Fashion & Apparel,28,17,1800.21,0.47,0,1.1,4,0
+CUST-2488,Rachel Martin #1489,Electronics,49,38,1982.7,0.08,3,3.6,2,0
+CUST-2489,Ananya Iyer #1490,Electronics,36,14,1383.04,0.64,3,1.1,3,0
+CUST-2490,James Lewis #1491,Beauty & Care,13,23,2297.85,0.29,2,0.5,3,0
+CUST-2491,Vikram Singh #1492,Home & Kitchen,96,25,1369.15,0.22,4,0.1,1,1
+CUST-2492,Rohan Mehta #1493,Sports & Fitness,36,15,481.15,0.5,1,0.2,3,0
+CUST-2493,Aarav Sharma #1494,Home & Kitchen,101,22,1904.92,0.48,1,3.1,3,1
+CUST-2494,Ananya Iyer #1495,Fashion & Apparel,26,3,154.44,0.31,2,1.3,4,0
+CUST-2495,David Taylor #1496,Electronics,86,19,1739.42,0.27,2,2.8,4,0
+CUST-2496,Diya Patel #1497,Home & Kitchen,4,34,2129.27,0.19,1,2.5,2,0
+CUST-2497,Rohan Mehta #1498,Home & Kitchen,95,35,2318.67,0.67,3,0.3,2,1
+CUST-2498,Daniel Clark #1499,Sports & Fitness,82,1,91.12,0.24,1,0.3,2,0
+CUST-2499,Emily Davis #1500,Electronics,64,21,1207.52,0.63,0,3.1,2,1
