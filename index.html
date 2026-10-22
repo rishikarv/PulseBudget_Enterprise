@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseBudget | Enterprise Digital Platform Budget & Expense Intelligence</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Chart.js for data visualization -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Top Executive Navigation Bar -->
+  <header class="app-header">
+    <div class="header-brand">
+      <div class="brand-logo">💎</div>
+      <div>
+        <h1 class="brand-title">PulseBudget <span class="brand-badge">ENTERPRISE</span></h1>
+        <p class="brand-subtitle">Digital Platform Expense, Cloud & SaaS Budget Intelligence</p>
+      </div>
+    </div>
+
+    <!-- Quick Business Presets & System Status -->
+    <div class="header-actions">
+      <div class="template-selector">
+        <span class="selector-label">Load Template:</span>
+        <button class="btn btn-sm btn-ghost" onclick="loadBusinessPreset('ecommerce')">🛒 E-Commerce</button>
+        <button class="btn btn-sm btn-ghost" onclick="loadBusinessPreset('saas_startup')">💻 SaaS Startup</button>
+        <button class="btn btn-sm btn-ghost" onclick="loadBusinessPreset('creator_agency')">🎨 Agency</button>
+      </div>
+      <div class="system-telemetry">
+        <span class="status-indicator"></span>
+        <span>Telemetry Live • SQLite Connected</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="dashboard-container">
+
+    <!-- Top KPI Executive Bar -->
+    <section class="kpi-grid">
+      <!-- KPI 1: Budget Ceiling -->
+      <div class="kpi-card">
+        <div class="kpi-meta">
+          <span class="kpi-title">Monthly Budget Target</span>
+          <button class="btn-icon" id="btn-edit-target" title="Update Budget Ceiling">✏️</button>
+        </div>
+        <div class="kpi-val" id="kpi-budget-limit">$0.00</div>
+        <span class="kpi-note" id="kpi-platform-name">Platform Budget Limit</span>
+      </div>
+
+      <!-- KPI 2: Total Platform Spend -->
+      <div class="kpi-card">
+        <div class="kpi-meta">
+          <span class="kpi-title">Total Monthly Spend</span>
+          <span class="kpi-badge badge-blue" id="kpi-tools-count">0 Tools</span>
+        </div>
+        <div class="kpi-val" id="kpi-total-spend">$0.00</div>
+        <span class="kpi-note" id="kpi-run-rate">Annual Run-Rate: $0</span>
+      </div>
+
+      <!-- KPI 3: Remaining Buffer / Deficit -->
+      <div class="kpi-card">
+        <div class="kpi-meta">
+          <span class="kpi-title">Remaining Budget</span>
+          <span class="kpi-badge" id="kpi-status-badge">HEALTHY</span>
+        </div>
+        <div class="kpi-val" id="kpi-remaining-budget">$0.00</div>
+        <span class="kpi-note" id="kpi-remaining-note">Available cash runway</span>
+      </div>
+
+      <!-- KPI 4: Budget Burn Rate -->
+      <div class="kpi-card">
+        <div class="kpi-meta">
+          <span class="kpi-title">Budget Utilization</span>
+          <span class="kpi-percentage" id="kpi-burn-pct">0%</span>
+        </div>
+        <div class="burn-meter-bg">
+          <div class="burn-meter-fill" id="kpi-burn-bar" style="width: 0%;"></div>
+        </div>
+        <span class="kpi-note" id="kpi-burn-status">Spend vs. Allocation</span>
+      </div>
+    </section>
+
+    <!-- Workspace 2-Column Grid -->
+    <section class="workspace-grid">
+
+      <!-- LEFT COLUMN: Data Entry & Scenario Simulator -->
+      <div class="column-left">
+
+        <!-- Card 1: Add New Platform Expense (Data Input) -->
+        <div class="card form-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">➕ Add Platform Expense / Subscription</h2>
+              <p class="card-desc">Enter cloud infrastructure, software licenses, ad spend, or team payroll.</p>
+            </div>
+          </div>
+
+          <form id="add-expense-form" class="expense-form">
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="exp-name">Tool / Vendor Name *</label>
+                <input type="text" id="exp-name" placeholder="e.g. AWS Cloud, Shopify, Meta Ads" required>
+              </div>
+
+              <div class="form-group">
+                <label for="exp-amount">Monthly Cost (USD) *</label>
+                <input type="number" id="exp-amount" min="1" step="0.5" placeholder="e.g. 450.00" required>
+              </div>
+            </div>
+
+            <div class="form-row-3">
+              <div class="form-group">
+                <label for="exp-category">Category *</label>
+                <select id="exp-category" required>
+                  <option value="Cloud & Infrastructure">Cloud & Infrastructure</option>
+                  <option value="E-Commerce & Platform">E-Commerce & Platform</option>
+                  <option value="Marketing & Ad Spend">Marketing & Ad Spend</option>
+                  <option value="SaaS & Productivity">SaaS & Productivity</option>
+                  <option value="Engineering & DevTools">Engineering & DevTools</option>
+                  <option value="Design & UX">Design & UX</option>
+                  <option value="Operations & Support">Operations & Support</option>
+                  <option value="Security & Networking">Security & Networking</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="exp-necessity">Necessity Tier *</label>
+                <select id="exp-necessity" required>
+                  <option value="Essential">Essential (Core Stack)</option>
+                  <option value="Growth">Growth (ROI Driven)</option>
+                  <option value="Discretionary">Discretionary (Can Trim)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="exp-cycle">Billing Cycle</label>
+                <select id="exp-cycle">
+                  <option value="Monthly">Monthly</option>
+                  <option value="Annual">Annual (Prorated)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="exp-notes">Purpose & Allocation Notes (Optional)</label>
+              <input type="text" id="exp-notes" placeholder="e.g. Production RDS cluster & S3 media buckets">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="btn-submit-expense">
+              ⚡ Add Expense & Recompute Budget
+            </button>
+          </form>
+        </div>
+
+        <!-- Card 2: Interactive What-If Budget Simulator -->
+        <div class="card simulator-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">🎯 "What-If" Budget Optimization Simulator</h2>
+              <p class="card-desc">Simulate cutting discretionary tools or renegotiating cloud contracts.</p>
+            </div>
+            <button class="btn btn-sm btn-ghost" id="btn-reset-sim">Reset Levers</button>
+          </div>
+
+          <div class="sim-controls">
+            <!-- Lever 1: Adjust Budget Ceiling -->
+            <div class="sim-group">
+              <div class="sim-label-row">
+                <span>Simulated Monthly Budget Ceiling:</span>
+                <span class="sim-val-display" id="sim-disp-ceiling">$6,500</span>
+              </div>
+              <input type="range" id="sim-slider-ceiling" min="2000" max="25000" step="250" value="6500" class="range-slider">
+            </div>
+
+            <!-- Lever 2: Trim Discretionary SaaS -->
+            <div class="sim-group">
+              <div class="sim-label-row">
+                <span>Cut Discretionary Tools:</span>
+                <span class="sim-val-display" id="sim-disp-disc">0%</span>
+              </div>
+              <input type="range" id="sim-slider-disc" min="0" max="100" step="10" value="0" class="range-slider">
+            </div>
+
+            <!-- Lever 3: Cloud Reserved Instance Optimization -->
+            <div class="sim-group">
+              <div class="sim-label-row">
+                <span>Renegotiate Cloud / Hosting (AWS/GCP):</span>
+                <span class="sim-val-display" id="sim-disp-infra">0%</span>
+              </div>
+              <input type="range" id="sim-slider-infra" min="0" max="35" step="5" value="0" class="range-slider">
+            </div>
+          </div>
+
+          <!-- Dynamic Output Card -->
+          <div class="sim-metrics-box">
+            <div class="sim-metric-item">
+              <span class="sim-metric-lbl">Baseline Monthly Spend</span>
+              <span class="sim-metric-val" id="sim-res-base">$0</span>
+            </div>
+            <div class="sim-arrow">➔</div>
+            <div class="sim-metric-item">
+              <span class="sim-metric-lbl">Optimized Monthly Spend</span>
+              <span class="sim-metric-val text-green" id="sim-res-opt">$0</span>
+            </div>
+            <div class="sim-metric-item">
+              <span class="sim-metric-lbl">Projected Annual Savings</span>
+              <span class="sim-metric-badge" id="sim-res-annual-savings">+$0/yr Saved</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT COLUMN: Visual Analytics & Intelligence Alerts -->
+      <div class="column-right">
+
+        <!-- Card 3: AI / Heuristic Budget Intelligence Alerts -->
+        <div class="card insights-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">💡 Budget Intelligence & Spending Alerts</h2>
+              <p class="card-desc">Automated audits of your current digital platform cost structure.</p>
+            </div>
+          </div>
+
+          <div id="recommendations-container" class="recommendations-list">
+            <!-- Populated via JS -->
+            <div class="rec-item">
+              <span class="rec-icon">⚡</span>
+              <div>
+                <h4 class="rec-title">Analyzing digital platform expenses...</h4>
+                <p class="rec-desc">Calculating category allocations and benchmarks.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Category Distribution Chart -->
+        <div class="card chart-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">📊 Spending Allocation by Category</h2>
+              <p class="card-desc">Proportional breakdown of tools, ad spend, and infrastructure.</p>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-categories"></canvas>
+          </div>
+        </div>
+
+        <!-- Card 5: Necessity Tier Distribution -->
+        <div class="card chart-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">🛡️ Cost Elasticity (Essential vs Growth vs Discretionary)</h2>
+              <p class="card-desc">How much of your budget can be trimmed without halting core operations.</p>
+            </div>
+          </div>
+          <div class="chart-container-sm">
+            <canvas id="chart-necessity"></canvas>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Bottom Section: Active Platform Tools & Subscriptions Data Grid -->
+    <section class="card table-card">
+      <div class="card-header table-header">
+        <div>
+          <h2 class="card-title">📋 Active Digital Platform Subscriptions & Expenses</h2>
+          <p class="card-desc">All recurring software tools, infrastructure, and operational line items.</p>
+        </div>
+
+        <div class="table-actions">
+          <input type="text" id="table-search" placeholder="🔍 Search tool or notes..." class="input-search">
+          <select id="table-cat-filter" class="input-select">
+            <option value="ALL">All Categories</option>
+            <option value="Cloud & Infrastructure">Cloud & Infrastructure</option>
+            <option value="E-Commerce & Platform">E-Commerce & Platform</option>
+            <option value="Marketing & Ad Spend">Marketing & Ad Spend</option>
+            <option value="SaaS & Productivity">SaaS & Productivity</option>
+            <option value="Engineering & DevTools">Engineering & DevTools</option>
+            <option value="Design & UX">Design & UX</option>
+            <option value="Operations & Support">Operations & Support</option>
+            <option value="Security & Networking">Security & Networking</option>
+          </select>
+          <select id="table-nec-filter" class="input-select">
+            <option value="ALL">All Tiers</option>
+            <option value="Essential">Essential Only</option>
+            <option value="Growth">Growth Only</option>
+            <option value="Discretionary">Discretionary Only</option>
+          </select>
+          <button class="btn btn-outline btn-sm" id="btn-export-csv">📥 Export CSV</button>
+        </div>
+      </div>
+
+      <div class="table-responsive">
+        <table class="enterprise-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Platform / Tool</th>
+              <th>Category</th>
+              <th>Monthly Cost</th>
+              <th>Annual Run-Rate</th>
+              <th>Necessity</th>
+              <th>Cycle</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="expenses-tbody">
+            <tr>
+              <td colspan="9" class="table-loading">Loading expenses from database...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal: Edit Budget Ceiling Target -->
+  <div id="modal-budget" class="modal-overlay" style="display: none;">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 class="modal-title">⚙️ Configure Monthly Budget Ceiling</h3>
+        <button class="modal-close" onclick="closeBudgetModal()">&times;</button>
+      </div>
+      <form id="form-edit-budget" class="modal-body">
+        <div class="form-group">
+          <label for="modal-input-limit">Monthly Target Ceiling (USD)</label>
+          <input type="number" id="modal-input-limit" min="500" step="50" required>
+        </div>
+        <div class="form-group">
+          <label for="modal-input-platform">Platform / Organization Name</label>
+          <input type="text" id="modal-input-platform" placeholder="e.g. Acme Global Commerce">
+        </div>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-ghost" onclick="closeBudgetModal()">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save Settings</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-inner">
+      <p><strong>PulseBudget Enterprise Intelligence Suite</strong> • Digital Platform Cost Management & Predictive Runway Analytics</p>
+      <p class="footer-meta">REST API • SQLite Relational Engine • Chart.js • Power BI Export Compliant</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
